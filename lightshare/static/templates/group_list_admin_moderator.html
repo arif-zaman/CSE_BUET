@@ -1,0 +1,67 @@
+{% extends "base_login.html" %}
+
+{% block title %}all groups{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+</br></br></br></br>
+
+<hr>
+<div class="container">
+    <div class="row">
+
+      <div class="col-sm-3"><!--left col-->
+                             
+          <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+          </div>
+          
+      </div><!--/col-3-->
+
+      <div class="col-sm-9">
+
+        <hr>
+        <h2 align="center"><em><b>Admin/Moderator</b></em></h2>
+        <hr>
+
+        <div class="row">
+
+          {% if ad %}
+
+            {% for key, value in ad.items %}
+
+              <div class="col-lg-4">
+              <img class="img-circle" src="/media/gpic.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+              <h2><a href="/lightshare/{{ key }}/home">{{ value }}</a></h2>
+              </div><!-- /.col-lg-4 -->
+
+            {% endfor %}
+
+          {% else %}
+
+              <h3 align="center"><em><b>You are not Admin/Moderator to any Group!</b></em></h3>
+
+          {% endif %}
+
+          </br>  
+
+        </div><!-- /.row -->  
+
+      </div><!--/col-9-->
+    </div><!--/row-->
+</div>
+
+{% endblock content %}

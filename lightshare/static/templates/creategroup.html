@@ -1,0 +1,66 @@
+{% extends "base_login.html" %}
+
+{% block title %}create group{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+<br><br><br>
+
+<hr>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-3"><!--left col-->
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+        
+        </div><!--/col-3-->
+
+        <div class="col-sm-9" align="center">
+
+            <h2 align="center">Group Category: <a href="#">{{ cat.group_category }}</a> </h2>
+            <br>
+            <hr>
+
+            <!-- New Group Creation Form
+            ================================================== -->
+            <form method="POST" action="/lightshare/create_group/{{ cat.id }}/" class="form-signin" role="form" style="width:80%"> {% csrf_token %}
+
+                <br>
+                <input class="form-control" placeholder="Group Name" id="id_group_name" maxlength="200" name="group_name" type="text" required autofocus />
+                <input type="hidden" id="id_group_creator" maxlength="120" name="group_creator" value="{{ session_name }}" />
+                <input  type="hidden" id="id_group_category" maxlength="120" name="group_category" value="{{ cat.group_category }}" />
+                <br />
+                <label><h3>Group Description:</h3></label>
+                <textarea class="form-control" placeholder="Group Desciptions" cols="40" id="id_group_description" name="group_description" rows="10"></textarea>
+                <br>
+                <p><label for="id_public">Public:</label> <input id="id_public" name="public" type="checkbox" /></p>
+                
+                <br>
+                <button class="btn btn-info btn-lg btn-block" type="submit">Create Group</button>
+
+            </form>
+
+                      
+        </div><!--/col-9-->
+
+      </div><!--/row-->
+</div>
+
+{% endblock content %}

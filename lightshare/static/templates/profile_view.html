@@ -1,0 +1,72 @@
+{% extends "base_login.html" %}
+
+{% block title %}user profile{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+</br></br></br></br>
+
+<hr>
+<div class="container">
+  <div class="row">
+      {% if pro.firstname and pro.lastname %}
+          <div class="col-sm-10"><h1><b>{{pro.firstname}} {{pro.lastname}}</b></h1></div>
+          
+      {% else %}
+           <div class="col-sm-10"><h1><b>{{pro.username}}</b></h1></div>
+      {% endif %}
+
+      {% if pro.propic %}
+        <div class="col-sm-2"><a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="{{ pro.propic.url }}" style="width: 120px; height: 120px;"></a></div>
+      {% else %}
+        <div class="col-sm-2"><a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="/media/generic.png" style="width: 120px; height: 120px;"></a></div>
+      {% endif %}
+    </div>
+    <hr>
+
+    <center>
+
+    {% if pri.stats == True %}
+      	<div class="col-lg-6">
+    {% endif %}
+
+      		<ul class="list-group">
+	            <li class="list-group-item text-muted"><h3 align="center"><b>User Info<b></h3></i></li>
+	            {% if pro.firstname and pro.lastname %}
+
+		            <li class="list-group-item text-right"><span class="pull-left"><strong>First Name</strong></span> {{ pro.firstname }}</li>
+		            <li class="list-group-item text-right"><span class="pull-left"><strong>Last Name</strong></span> {{ pro.lastname }} </li>
+		        {% endif %}
+
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Username</strong></span> {{ pro.username }} </li>
+              {% if pri.email == True %}
+	             <li class="list-group-item text-right"><span class="pull-left"><strong>Email</strong></span> {{ pro.email }}</li>
+              {% endif %}
+              <li class="list-group-item text-right"><span class="pull-left"><strong>Joined</strong></span> {{ user.date_joined }}</li>
+          	</ul>
+
+        </div>
+
+        {% if pri.stats == True %}
+
+      	<div class="col-lg-6">
+
+      		<ul class="list-group">
+	            <li class="list-group-item text-muted"><h3 align="center"><b>User Stats<b></h3></i></li>
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Group Creator</strong></span> 0{{ creator }}</li>
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Admin</strong></span> 0{{ adm }} </li>
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Moderator</strong></span> 0{{ mod }} </li>
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Member</strong></span> 0{{ usr }}</li>
+	            <li class="list-group-item text-right"><span class="pull-left"><strong>Total Posts</strong></span> 0{{ post }} </li>
+          	</ul>
+
+        </div>
+
+      {% endif %}
+    </center>
+          
+    </div><!--/row-->
+
+{% endblock content %}

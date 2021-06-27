@@ -1,0 +1,137 @@
+{% extends "base_login.html" %}
+
+{% block title %}user profile{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+<br /><br /><br />
+<hr>
+<div class="container">
+  <div class="row">
+      {% if pro.firstname and pro.lastname %}
+          <div class="col-sm-10"><h1><b>{{pro.firstname}} {{pro.lastname}}</b></h1></div>
+          
+      {% else %}
+           <div class="col-sm-10"><h1><b>{{pro.username}}</b></h1></div>
+      {% endif %}
+
+      {% if pro.propic %}
+        <div class="col-sm-2"><a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="{{ pro.propic.url }}" style="width: 120px; height: 120px;"></a></div>
+      {% else %}
+        <div class="col-sm-2"><a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="/media/generic.png" style="width: 120px; height: 120px;"></a></div>
+      {% endif %}
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-3"><!--left col-->
+              
+          <ul class="list-group">
+            <li class="list-group-item text-muted">Profile</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Joined</strong></span> {{ user.date_joined }}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Last Seen</strong></span> {{ user.last_login }}</li>
+          </ul>      
+          
+          <ul class="list-group">
+            <li class="list-group-item text-muted">Activity </i></li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Group Creator</strong></span> 0{{ creator }}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Admin</strong></span> 0{{ adm }} </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Moderator</strong></span> 0{{ mod }} </li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Member</strong></span> 0{{ usr }}</li>
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Total Posts</strong></span> 0{{ post }} </li>
+          </ul> 
+          
+        </div><!--/col-3-->
+      <div class="col-sm-9">
+          
+          <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#home" data-toggle="tab">Recent Activity</a></li>
+            <li><a href="#settings" data-toggle="tab">Edit Profile</a></li>
+          </ul>
+              
+          <div class="tab-content">
+            <div class="tab-pane active" id="home">
+              
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  
+                  <tbody>
+                  {% for r in ra %}
+                    <tr>
+                      <td><i class="pull-right fa fa-edit"></i> {{ r.timestamp }} - {{ r.body|safe }}.</td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+              
+             </div><!--/tab-pane-->
+            
+             <div class="tab-pane" id="settings">
+                
+                
+                  <hr>
+                  <form class="form" action="/lightshare/profile/edit/{{ pro.id }}/" method="post" enctype="multipart/form-data" id="registrationForm"> {% csrf_token %}
+                      <div class="form-group">
+
+                          <h2 style="color:#F00" align="center"> N.B. - You Can't Change Your Username.</h2>
+
+                          <h3 align="center"><a href="/lightshare/change_password/$/"><strong>Change Password</strong></a> | <a href="/lightshare/deactivate/$/"><strong>Deactivate Account</strong></a></h3>
+
+                          <div class="col-xs-6">
+                            <label for="firstname"><h4>First name</h4></label>
+                            <input type="text" class="form-control" name="firstname" id="firstname" placeholder="{{ pro.firstname }}" value="{{ pro.firstname }}" >
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="lastname"><h4>Last name</h4></label>
+                            <input type="text" class="form-control" name="lastname" id="lastname" placeholder="{{ pro.lastname }}" value="{{ pro.lastname }}" >
+                          </div>
+                      </div>
+          
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="email"><h4>Email</h4></label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="{{ pro.email }}" value="{{ pro.email }}" >
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <label for="propic"><h4>Change Profile Picture</h4></label>
+                            {% if pro.propic %}
+                              <input type="file" class="form-control" name="propic" id="propic" value="{{ pro.propic.url }}">
+                            {% else %}
+                              <input type="file" class="form-control" name="propic" id="propic">
+                            {% endif %}
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                          
+                          <div class="col-xs-6">
+                            <input type="hidden" class="form-control" id="username"  value="{{ pro.username }}" >
+                          </div>
+                      </div>
+
+                      <div class="form-group">
+                           <div class="col-xs-12">
+                                <br>
+                                <button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
+                                <button class="btn btn-lg btn-warning" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+                            </div>
+                      </div>
+                </form>
+              </div>
+               
+              </div><!--/tab-pane-->
+          </div><!--/tab-content-->
+
+        </div><!--/col-9-->
+    </div><!--/row-->
+
+{% endblock content %}

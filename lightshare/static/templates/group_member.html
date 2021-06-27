@@ -1,0 +1,69 @@
+{% extends "group.html" %}
+
+    {% block group_search %}
+
+            <!-- Blog Search Well -->
+            <div class="well">
+                <h4>Group Search</h4>
+                 <form action="/lightshare/{{ gname.id }}/search_result/page/1/$/" method="POST" class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+            </div>
+
+    {% endblock group_search %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+
+            <div class="panel panel-info">
+
+                {% if gmember %}
+                    
+                    <div class="panel-heading">
+                         <h3 class="panel-title"><h1 align="center"><b> Group Members </b></h1></h3>
+                    </div>
+
+                    <ul class="list-group">
+                        <li class="list-group-item text-right"><span class="pull-left"><strong>Username</strong></span><b>Join Date</b></li>
+                        <li class="list-group-item text-right"></li>
+
+                    {% for gm in gmember %}
+             
+                        <li class="list-group-item text-right"><span class="pull-left"><strong>{{ gm.username }}</strong></span>{{ gm.join_date }}</li>
+                    {% endfor %}
+
+                    </ul> 
+
+                {% endif %}
+
+            </div>
+
+    {% endblock gcontent %}

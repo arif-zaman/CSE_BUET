@@ -1,0 +1,69 @@
+{% extends "base_login.html" %}
+
+{% block title %}user profile{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+</br></br></br></br>
+<hr>
+<div class="container">
+
+
+    <div class="row">
+      <div class="col-sm-3"><!--left col-->
+                             
+          <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+        </div><!--/col-3-->
+
+        <div class="col-sm-9">
+
+      <div>
+
+        <h2 align="center"><em><b>Select a Category</b></em></h2>
+        </br>
+        <hr>
+
+        <div class="row">
+
+          {% for category in categories %}
+
+            <div class="col-lg-4">
+            {% if category.propic %}
+              <img class="img-circle" src="{{ category.propic.url }}" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            {% else %}
+              <img class="img-circle" src="/media/gpic.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+            {% endif %}
+
+            <h2><a href="/lightshare/create_group/{{ category.id }}">{{ category.group_category }}</a></h2>
+            <br/>
+            </div><!-- /.col-lg-4 -->
+
+          {% endfor %}
+
+          </br>  
+
+        </div><!-- /.row -->
+      </div>  
+
+      </div><!--/col-9-->
+
+      </div><!--/row-->
+</div>
+
+{% endblock content %}

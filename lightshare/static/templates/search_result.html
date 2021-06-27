@@ -1,0 +1,85 @@
+{% extends "base_login.html" %}
+
+{% block title %} search results {% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+</br></br></br></br>
+
+<hr>
+<div class="container">
+    <div class="row">
+
+      <div class="col-sm-3"><!--left col-->
+                             
+          <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+          </div>
+          
+      </div><!--/col-3-->
+
+      <div class="col-sm-9">
+      <br />
+      {% if invalid %}
+
+          <h2 align="center">Invalid Keywords !! No Results Found.</h2>
+
+      {% else %}
+
+          <h2 align="center">Available Search Results : {{ count }} </h2>
+          <hr>
+
+          <ul class="pager">
+
+              {% if new %}
+                <li class="previous">
+                  <a href='/lightshare/search_result/page/{{ pid|add:"-1"}}/{{ str1 }}/'>Previous &larr;</a>
+                </li>
+              {% endif %}
+
+              {% if old %}
+                <li class="next">  
+                  <a href='/lightshare/search_result/page/{{ pid|add:"1"}}/{{ str1 }}/'>&rarr; Next</a>
+                </li>
+              {% endif %}
+
+          </ul>
+          <br />
+
+          {% if group %}
+
+            {% for g in group %}
+
+                <div class="col-lg-4">
+                  <img class="img-circle" src="/media/gpic.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h2><a href="/lightshare/{{ g.id }}/home">{{ g.group_name }}</a></h2>
+                </div><!-- /.col-lg-4 -->
+
+            {% endfor %}
+
+          {% else %}
+
+            <h2 align="center">No Results Found.</h2>
+
+          {% endif %}
+
+      {% endif %}
+
+      </div><!--/col-9-->
+    </div><!--/row-->
+</div>
+
+{% endblock content %}

@@ -1,0 +1,138 @@
+{% extends "group.html" %}
+
+    {% block gprofile %}
+
+    <ul class="list-group">
+        <li class="list-group-item text-muted"><b>Group</b></li>
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Created</strong></span>{{ gname.created }}</li>
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Updated</strong></span>{{ gname.modified}}</li>
+    </ul>       
+          
+    <ul class="list-group">
+        <li class="list-group-item text-muted"><b>Stats</b></li>
+        {% for c in crt %}
+            <li class="list-group-item text-right"><span class="pull-left"><strong>Group Creator</strong></span> <a href="/lightshare/user/profile/{{ c.id }}/"> {{ creator }} </a></li>
+        {% endfor %}
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Admin</strong></span> {{ adm }} </li>
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Moderator</strong></span> {{ mod }} </li>
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Member</strong></span> {{ usr }} </li>
+        <li class="list-group-item text-right"><span class="pull-left"><strong>Total Posts</strong></span> {{ post }} </li>
+    </ul>
+
+    {% endblock gprofile %}
+
+    {% block gcontent %}
+
+          
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#home" data-toggle="tab">Join Requests</a></li>
+            {% if adm2 %}
+            <li><a href="#adms" data-toggle="tab">Administration</a></li>
+            <li><a href="#updates" data-toggle="tab">Group Update</a></li>
+            {% endif %}
+        </ul>
+              
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">          
+                <ul class="list-group">
+                    <br />
+
+                    {% for r in request %}
+                        <li class="list-group-item text-right"><span class="pull-left"><strong>{{ r.username }}</strong></span><strong><a href="/lightshare/{{ gname.id }}/{{ r.username }}/accept/">accept</a> | <a href="/lightshare/{{ gname.id }}/{{ r.username }}/ignore/">ignore</a></strong></li>
+                    {% endfor %}
+                </ul>
+            </div><!--/tab-pane-->
+
+            <div class="tab-pane" id="adms">
+
+                <div class="col-lg-6">
+                <br />
+                <center>
+                <form action="/lightshare/{{ gname.id }}/makeadmin/" method="POST" class="navbar-form navbar-center form-inline"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="adm" id="adm" class="form-control" placeholder="username">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="submit">
+                                    <span><strong>Make Admin</strong></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+                <br />
+
+                <ul class="list-group">
+                    <li class="list-group-item text-muted"><h3 align="center"><strong>Group Admins</strong></h3></li>
+                {% if adms %}
+                    {% for adm in adms %}
+                        <li class="list-group-item text-muted"><strong>{{adm.username }}</strong></li>
+                    {% endfor %}
+                {% endif %}
+                </ul>
+                </center>
+             </div>
+
+             <div class="col-lg-6">
+                <br />
+                <center>
+                <form action="/lightshare/{{ gname.id }}/makemoderator/" method="POST" class="navbar-form navbar-center form-inline"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="mod" id="mod" class="form-control" placeholder="username">
+                            <span class="input-group-btn">
+                                <button class="btn btn-success" type="submit">
+                                    <span><strong>Make Moderator</strong></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+                <br />
+                <ul class="list-group">
+                    <li class="list-group-item text-muted"><h3 align="center"><strong>Group Moderators</strong></h3></li>
+                {% if mods %}
+                    {% for mod in mods %}
+                        <li class="list-group-item text-muted"><strong>{{ mod.username }}</strong></li>
+                    {% endfor %}
+                {% endif %}
+                </ul>
+                </center>
+             </div>
+
+             </div><!--/tab-pane-->
+
+             <div class="tab-pane" id="updates">
+                
+                <hr>
+                <center>
+                <!-- Group Edit Form
+                ================================================== -->
+                <form method="POST" action="/lightshare/{{ gname.id }}/egroup/" class="registrationForm" enctype="multipart/form-data" role="form" style="width:80%"> {% csrf_token %}
+
+                    </br>
+
+                    <label><h3>Change Group Profile Picture</h3></label>
+                    {% if gname.propic %}
+                        <input type="file" class="form-control" name="propic" id="propic" value="{{ gname.propic.url }}">
+                    {% else %}
+                        <input type="file" class="form-control" name="propic" id="propic">
+                    {% endif %}
+                    </br>
+
+                    <button class="btn btn-info btn-lg btn-block" type="submit"><strong>Save</strong></button>
+
+                </form>
+                <br />
+                <a href="/lightshare/{{ gname.id }}/delete_group/" class="btn btn-danger btn-lg btn-block" role="button"><strong>Delete Group</strong></a>
+                </center>
+                          
+              </div>
+               
+             </div><!--/tab-pane-->
+
+          </div><!--/tab-content-->
+
+    {% endblock gcontent %}

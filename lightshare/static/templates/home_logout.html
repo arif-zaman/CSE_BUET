@@ -1,0 +1,80 @@
+{% extends "base_logout.html" %}
+
+{% block content %}
+
+  <!-- Carousel
+  ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" align="center">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="/static/img/light.png" alt="1st slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="color:red">Welcome to LightShare</h1>
+              </br>
+              <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+        <img src="/static/img/static-graph.png" alt="2nd slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="color:red">Share Knowledge</h1>
+              </br>
+              <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+        <img src="/static/img/share.jpg" alt="3rd slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 style="color:red">Keep BrainStorming</h1>
+              </br>
+              <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="/static/img/simple.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Simple</h2>
+          <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="/static/img/easy.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Easy</h2>
+          <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="/static/img/fun.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Fun</h2>
+          <p>CSE324 Software Development, Dept. of Computer Science & Engineering,BUET.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      
+      <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+{% endblock content %}

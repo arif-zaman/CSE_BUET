@@ -1,0 +1,149 @@
+{% extends "group.html" %}
+
+    {% block group_search %}
+
+            <!-- Blog Search Well -->
+            <div class="well">
+                <h4>Group Search</h4>
+                 <form action="/lightshare/{{ gname.id }}/search_result/page/1/$/" method="POST" class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+            </div>
+
+    {% endblock group_search %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+
+        {% if article.isactive %}
+
+            <!-- Blog Post -->
+            <div>
+
+                <ul class="list-group">
+
+                    <li class="list-group-item text-muted"><h3><a href="/lightshare/{{ gname.id }}/{{ article.id }}/"><b>{{ article.title }}</b></a></h3></li>
+
+                    {% if adm and su %}
+                        {% if article.pinned %}
+                            <li class="list-group-item text-right"><b><a href="/lightshare/{{ gname.id }}/{{ article.id }}/uppost/">Unpin Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/edit_post/">Edit Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/dpost/">Delete Post</a></b></article></li>
+                        {% else %}
+                            <li class="list-group-item text-right"><b><a href="/lightshare/{{ gname.id }}/{{ article.id }}/ppost/">Pin Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/edit_post/">Edit Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/dpost/">Delete Post</a></b></article></li>
+                        {% endif %}
+                    {% else %}
+                        {% if adm %}
+                            {% if article.pinned %}
+                                <li class="list-group-item text-right"><b><a href="/lightshare/{{ gname.id }}/{{ article.id }}/uppost/">Pin Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/dpost/">Delete Post</a></b></article></li>
+                            {% else %}
+                                <li class="list-group-item text-right"><b><a href="/lightshare/{{ gname.id }}/{{ article.id }}/ppost/">Pin Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/dpost/">Delete Post</a></b></article></li>
+                            {% endif %}
+                        {% endif %}
+                        {% if su %}
+                            <li class="list-group-item text-right"><b><a href="/lightshare/{{ gname.id }}/{{ article.id }}/edit_post/">Edit Post</a> | <a href="/lightshare/{{ gname.id }}/{{ article.id }}/dpost/">Delete Post</a></b></article></li>
+                        {% endif %}
+                    {% endif %}
+
+
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>Posted By : <a href="/lightshare/user/profile/{{ usr.id }}/">{{ article.writer }}</a></strong></span>{{ article.created }}</li>
+
+                    <li class="list-group-item text-muted"><article><b>{{ article.body|safe }}</b></article></li>
+
+                    <li class="list-group-item text-right"><span class="pull-left"><strong>
+
+                        {% if like %}
+                            <p><a href="/lightshare/{{ gname.id }}/{{ pid }}/ulikes/"><strong>unlike</strong></a> - <b>You and {{ article.likes|add:"-1" }} other users likes this post</b></p>
+
+                        {% else %}
+                            <p><a href="/lightshare/{{ gname.id }}/{{ pid }}/likes"><strong>like</strong></a> - <b>{{ article.likes }} users likes this post</b></p>
+
+                        {% endif %}
+
+                    </strong></span><b>{{ cc }} <a href="#comments">Comments</a></b></li>
+
+                </ul>
+                            
+            </div>
+
+            <!-- Blog Comments -->
+
+            <hr>
+
+            <!-- Comments Form -->
+                <div class="well">
+                    <h4><b>Leave a Comment:</b></h4>
+                    <form method="POST" action="/lightshare/{{ gname.id }}/{{ pid }}/" role="form" > {% csrf_token %}
+
+                        <div class="form-group">
+                            <textarea class="form-control" id="id_comment" maxlength="1200" name="comment" rows="3"></textarea>
+                        </div>
+
+                        <input type="hidden" id="id_commentor" maxlength="120" name="commentor" value="{{ session_name }}" />
+                        <input  type="hidden" id="id_post_id" name="post_id" value="{{ pid }}" />
+
+                        <button type="submit" class="btn btn-info btn-lg active">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+            <!-- Posted Comments -->
+
+            <div class="well" id="comments">
+
+                    {% if comment %}
+                        
+                        {% for c in comment %}
+
+                        <ul class="list-group">
+
+                            <li class="list-group-item text-right"><span class="pull-left"><strong>{{ c.commentor}}</strong></span>{{ c.created }}</li>
+
+                            <li class="list-group-item text-muted"><em>{{ c.comment|safe }}</em></li>
+                        
+                        </ul>
+
+                        {% endfor %}
+
+                    {% else %}
+
+                        <h4 align="center"><em><b>No Comments Yet .... </b></em></h4>
+
+                    {% endif %}
+
+                </div>
+        {% else %}
+
+            <div align="center">
+                <h1>We are sorry.<br />This post has been removed.</h1>
+            </div>
+        {% endif %}
+
+    {% endblock gcontent %}

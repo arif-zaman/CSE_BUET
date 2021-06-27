@@ -1,0 +1,203 @@
+﻿/* for fixed navbar */
+body
+{ 
+    padding-top: 50px;
+}
+.index-header
+{
+    width: 100%;
+    padding-bottom:40px;
+    padding-top:30px;
+    font-size: 24px;
+    color: white;
+    background-color: #F58723;
+    margin-bottom: 30px;
+}
+.index-header h1
+{
+    font-size: 60px;
+    line-height: 1;
+}
+
+#footer {    
+    background-color:#F58723;
+    width:100%;
+    color:white;
+}
+#footer a, #footer a:visited { 
+    color:white;
+}
+#footer a:active, #footer a:hover, #footer a:focus { 
+    color:white;
+    text-decoration:underline;
+}
+
+/* sharing stuff */
+.sharing-container
+{
+    position: fixed;
+    top: 40%;
+    left: 0;
+    right: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    z-index: 11100;
+    overflow: hidden;
+    width: 64px;
+}
+.sharing-container .sharing-item
+{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    cursor: pointer;
+}
+.sharing-container .sharing-item:hover
+{
+    width: 64px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.sharing-container .sharing-img
+{
+    display: inline-block;
+    margin: auto;
+    margin-top: 8px;
+    width: 32px;
+    height: 32px;
+    background-image: url(/Content/images/sharing32x32.png);
+}
+.sharing-container .sharing-fb
+{
+    background-color: #305891;
+}
+.sharing-container .sharing-fb .sharing-img
+{
+    background-position: 0px 0px;
+}
+.sharing-container .sharing-gp
+{
+    background-color: #CE4D39;
+}
+.sharing-container .sharing-gp .sharing-img
+{
+    background-position: 0px -32px;
+}
+.sharing-container .sharing-tw
+{
+    background-color: #2CA8D2
+}
+.sharing-container .sharing-tw .sharing-img
+{
+    background-position: 0px -64px;
+}
+.sharing-container .sharing-li
+{
+    background-color: #4498C8;
+}
+.sharing-container .sharing-li .sharing-img
+{
+    background-position: 0px -96px;
+}
+
+/* Bootstrap overrides */
+#main_navbar.navbar-default
+{
+    background-color: #F58723;
+    border-color: #DC791F;
+    color: white;
+}
+#main_navbar.navbar-default .navbar-brand,
+#main_navbar.navbar-default .navbar-brand:hover,
+#main_navbar.navbar-default .navbar-brand:active,
+#main_navbar.navbar-default .navbar-brand:focus
+{
+    color: white;
+    font-weight: bold;
+}
+#main_navbar.navbar-default .navbar-toggle
+{
+    color: white;
+    background-color: #F58723;
+    border-color: white;
+}
+#main_navbar.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: white;
+}
+#main_navbar.navbar-default .navbar-toggle:hover,
+#main_navbar.navbar-default .navbar-toggle:active,
+#main_navbar.navbar-default .navbar-toggle:focus
+{
+    color: #F58723;
+    background-color: white;
+}
+#main_navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#main_navbar.navbar-default .navbar-toggle:active .icon-bar,
+#main_navbar.navbar-default .navbar-toggle:focus .icon-bar
+{
+    background-color: #F58723;
+}
+#main_navbar.navbar-default .navbar-nav > li > a,
+#main_navbar.navbar-default .navbar-nav > li > a:visited,
+#main_navbar.navbar-default .navbar-nav > li > a:active,
+#main_navbar.navbar-default .navbar-nav > li > a:focus
+{
+    color: white;
+}
+#main_navbar.navbar-default .navbar-nav > li > a:hover
+{
+    color: white;
+}
+#main_navbar.navbar-default .navbar-nav > .active > a, 
+#main_navbar.navbar-default .navbar-nav > .active > a:hover, 
+#main_navbar.navbar-default .navbar-nav > .active > a:focus
+{
+    background-color: #DC791F;
+    color: white;
+}
+
+
+.pagination li a,
+.pagination li a:hover,
+.pagination li a:visited,
+.pagination li a:active,
+.pagination li a:focus
+{
+    color: #555;
+}
+.pagination .active,
+.pagination .active a,
+.pagination .active a:hover,
+.pagination .active a:visited,
+.pagination .active a:active,
+.pagination .active a:focus
+{
+    background-color: #F58723;
+    border-color: #F58723;
+    color: white;
+}
+
+
+.pb-template a, .pb-template a:visited
+{
+    color: #444444;
+}
+
+.pb-template a:active, .pb-template a:hover, .pb-template a:focus
+{
+    color: #222222;
+    text-decoration: none;
+}
+
+.pb-callout 
+{
+    width: 100%;
+    background-color: rgba(245, 135, 35, 0.10);
+    border-left: 3px #F58723 solid;
+    padding: 15px 10px 15px 10px;
+    color: #343434;
+}

@@ -1,0 +1,32 @@
+{% extends "base_logout.html" %}
+
+{% block title %}login{% endblock title%}
+
+{% block content %}
+
+<br><br><br>
+
+    <!-- Login Form -->
+    
+  <div class="container" align="center" style="width:30%">
+    <hr>
+    <h2 align="center"><em><b>Please Sign In</b></em></h2>
+    <br>
+
+    <form action ="/lightshare/auth/" method="post" class="form-signin" role="form" >{% csrf_token %}
+      <input type="email" class="form-control" placeholder="Email Address" name="email" id="email" required autofocus >
+      <input type="password" class="form-control" placeholder="Password" name="password" id="password" required >
+      <!--
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      -->
+      <br>
+      <button class="btn btn-lg btn-primary btn-block" type="submit"><b>Sign in</b></button>
+      </form>
+
+  </div> <!-- /container -->
+
+{% endblock content %}

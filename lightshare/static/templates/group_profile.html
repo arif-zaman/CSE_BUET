@@ -1,0 +1,91 @@
+{% extends "group.html" %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+                
+            <div class="panel  panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><h3><b>About</b></h3></h3>
+                </div>
+
+                <ul class="list-group">
+                    <li class="list-group-item text-muted"><b><em>{{ gd|safe }}</em></b></li>
+                </ul>
+
+            </div>
+
+
+            <div>
+         
+            {% if gm %}
+                {% for g in gm%}
+                    {% if g.is_verified %}
+
+                    {% else %}
+                        <div class="well"><h3 align="center">Group Join Request is Pending.</h3></div>
+                    {% endif %}
+                {% endfor %}
+
+            {% else %}
+
+             <hr>   
+             <form action="/lightshare/{{ gname.id }}/jgroup/3">
+                {% if gname.public %}
+                    <button class="btn btn-lg btn-info btn-block" type="submit">Join Now</button>
+                {% else %}
+                    <button class="btn btn-lg btn-info btn-block" type="submit">Send Join Request</button>
+                {% endif %}
+             </form>
+
+            {% endif %}
+
+            </div>
+
+            <hr>
+
+            <div>
+            
+            <h2 align="center"><em><b>Group Posts</b></em></h2>
+
+            {% if articles %}
+
+                {% for article in articles %}
+                    <ul class="list-group">
+
+                        <li class="list-group-item text-muted"><h3><a href="/lightshare/{{ gname.id }}/{{ article.id }}/"><b>{{ article.title }}</b></a></h3></li>
+
+                        <li class="list-group-item text-right"><span class="pull-left"><strong>Posted By : {{ article.writer }}</strong></span>{{ article.created }}</li>
+
+                        <li class="list-group-item text-muted"><b>{{ article.body|safe|truncatewords_html:10 }}</b></article></li>
+
+                    </ul>
+                    <br />
+                {% endfor %}
+
+            {% else %}
+
+              <h3 align="center"><em>No Posts Yet..</em></h3>
+
+            {% endif %}
+
+            </div> 
+
+{% endblock gcontent %}

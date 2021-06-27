@@ -1,0 +1,261 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  background: #ffffff url("../images/background.jpg");
+  font: normal 12px Arial,Helvetica,sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.black{
+  color:black !important;
+}
+.end{
+  padding-left: 0 !important;
+  text-align: right !important;
+  float: right !important;
+}
+.end h3{
+  padding-top: 5% !important;
+}
+.hidden{
+  display:none !important;
+}
+
+core-header-panel {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+core-toolbar {
+  background: rgba(255, 165, 0, 0.49);
+  color: white;
+  width: 80%;
+  margin:auto;
+}
+#tabs {
+  width: 100%;
+  margin: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container {
+  margin-top:30px;
+  width: 100%;
+}
+
+.top_element{
+  width:100%;
+}
+
+.footer{
+  float: left;
+  position: relative;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.49);
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  margin-bottom:4%;
+  border-radius:0;
+  padding-bottom:2%;
+  box-shadow: 0px 0px 10px rgb(90, 66, 21);
+}
+
+.partition_20{
+  width:20%;
+  position:relative;
+  float:left;
+  text-align: left;
+  padding-left:5%;
+  padding-top:3%;
+}
+.partition_20 a{
+  color: #3ab8b8;
+  outline: 0;
+  text-decoration: none;
+}
+
+.partition_20 a:hover{
+  text-decoration: underline;
+  outline: 0!important;
+  cursor: pointer!important;
+}
+ul {
+  list-style: none;
+}
+*{
+  padding:0;
+  margin:0;
+}
+.footer_end{
+  float:left;
+  color:#666;
+  padding-top:8%;
+  padding-left:5%;
+}
+
+.footer_end a{
+  color:#666;
+}
+
+.login_view{
+  position: absolute;
+  margin: 5% 35% 5% 35%;
+  /* margin-left: 35%; */
+  border: 10px solid rgba(0,0,0,.4);
+  border-radius: 22px;
+  padding: 7px;
+  width: 30%;
+}
+
+@-webkit-keyframes spaceboots {
+  0%   {top:-280px;}
+  20%  {top:-28px;}
+  40%  {top:9px;}
+  70%  {top:-2px;}
+  100% {top:0px;}
+}
+.animate {
+    -webkit-animation-name: spaceboots;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin:50% 50%;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+.logo{
+  padding-top: 4%;
+}
+
+.zoomed_logo{
+  padding: 0;
+  zoom:0.5;
+  -moz-transform: scale(0.5);
+}
+paper-tab{
+  color:white;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 5%,rgba(0,0,0,0.08) 40%);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2) inset,0 -1px 1px rgba(0,0,0,0.1) inset,0 1px 0px rgba(0,0,0,0.2) inset;
+}
+
+.social{
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  background-size: 295px 550px;
+  background-image: url('../images/social.png');
+  background-repeat: no-repeat;
+  margin-right: 12.5px;
+}
+.twitter{
+  background-position: -7px -3px;
+}
+.twitter:hover{
+  background-position: -7px -50px;
+}
+.facebook{
+  background-position: -61px -3px;
+}
+.facebook:hover{
+  background-position: -61px -50px;
+}
+.googleplus{
+  background-position: -117px -3px;
+}
+.googleplus:hover{
+  background-position: -117px -50px;
+}
+.instagram{
+  background-position: -172px -3px;
+}
+.instagram:hover{
+  background-position: -172px -50px;
+}
+.youtube{
+  background-position: -227px -3px;
+}
+.youtube:hover{
+  background-position: -227px -50px;
+}
+
+//style by AI
+
+
+#mojadarfaq a {
+text-decoration: none;
+color: white;
+font-size: 19px;
+line-height: 48px;
+}
+
+.faq_qa {
+width: 1040px;
+background: white;
+padding: 20px;
+font-size:20px;
+font-weight:bold;
+} 
+.faq_qa ul li {
+font-size:16px;
+ padding: 10px 0;
+ font-weight:normal;
+ }
+ 
+ .restaurant_list li {
+ list-style-type:bengali;
+ }
+ 
+body1 {
+ 	box-shadow: 0px 0px 10px orange;
+        position: relative;
+
+    background-color: #cccccc;
+}
+ 
+.show_restaurant {
+background-color: #207cca;
+color: #fff;
+width: 80%;
+padding-top: 8px;
+padding-bottom: 8px;
+border: 2px solid #207cca;
+}
+
+
+.procedure{
+  float: left;
+  position: relative;
+  margin-top: 40px;
+  background: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  min-height:212px;
+  margin-bottom:4%;
+  border-radius:0;
+  padding-bottom:2%;
+  background-image: url("http://mojadar.com/application/views/images/odering_procedure.jpg") ;
+   background-repeat: no-repeat;
+
+background-size: 100% 100%;
+    
+    
+  box-shadow: 0px 0px 10px rgb(90, 66, 21);
+}
+
+
+.fool {
+    background: green;
+    display: block;
+    height: 100px;
+    width: 200px;
+}  
+
+
+
+
+

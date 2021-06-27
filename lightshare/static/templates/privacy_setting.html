@@ -1,0 +1,41 @@
+{% extends "base_login.html" %}
+
+{% block title %}privacy settings{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+<br /><br /><br /><br /><br />
+
+<div class="container">
+<div class="panel panel-info" align="center">
+
+    <div class="panel panel-heading">
+        <h2 class="form-signin-heading"><em><b>Privacy Setting</b></em></h2>
+    </div>
+
+    <div class="panel-body">
+        <div class="alert alert-success" role='alert' style="width: 70%">
+            <p align="center"><em>Last Updated : {{ pri.time }}</em></p>
+        </div>
+    
+        <form method="POST" action="/lightshare/privacy_setting/" class="form-signin" role="form" style="width:50%"> {% csrf_token %}
+            <div>
+
+            </br>
+
+            <p> <input id="id_email" name="email" type="checkbox" /><label for="id_email">Share Your Email Address</label></p>
+            <p> <input id="id_stats" name="stats" type="checkbox" /> <label for="id_stats">Share Your User Stats</label> </p>
+       	    <input type="hidden" id="username" name="username" value="{{ session_name }}" />
+
+            </br>
+            <button class="btn btn-success btn-lg btn-block active" type="submit"><strong>Save</strong></button>
+
+            </div>
+        </form>
+
+    </div>
+
+</div>
+</div>
+{% endblock content %}

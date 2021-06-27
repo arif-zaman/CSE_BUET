@@ -1,0 +1,76 @@
+{% extends "base_login.html" %}
+
+{% block title %}{{ gname.group_name }}{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+	</br></br></br></br>
+	<hr>
+
+	<!-- Page Content -->
+	<div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-9"><h1><b><a href="/lightshare/{{ gname.id }}/home">{{ gname.group_name }}</a></b></h1></div>
+            <div class="col-lg-3">
+            	{% if gname.propic %}
+                	<a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="{{ gname.propic.url }}" style="width: 140px; height: 140px;"></a>
+                {% else %}
+                	<a href="#" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="/media/gpic.jpg" style="width: 140px; height: 140px;"></a>
+                {% endif %}
+            	
+            </div>
+            
+        </div> <!-- end 1st row -->
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+            	{% block group_search %}{% endblock group_search %}
+            	{% block fav %}{% endblock fav %}
+            	{% block gprofile %}{% endblock gprofile %}
+
+            </div>
+
+        	<div class="col-md-9">
+
+        		{% if np %}
+
+        		{% else %}
+
+				<div  align="center">
+				    <div class="btn-group">
+				    <a href="/lightshare/{{ gname.id }}/new_post/" class="btn btn-info btn-lg active" role="button"><b>New Post</b></a>
+				    {% if fav %}
+					<a href="/lightshare/{{ gname.id }}/rem_fav/" class="btn btn-danger btn-lg active" role="button"><b>Remove From Favourites</b></a>
+				    {% else %}
+					<a href="/lightshare/{{ gname.id }}/add_fav/" class="btn btn-info btn-lg active" role="button"><b>Add to Favourites</b></a>
+				    {% endif %}
+				    <a href="/lightshare/{{ gname.id }}/profile/" class="btn btn-info btn-lg active" role="button"><b>About</b></a>
+				    <a href="/lightshare/{{ gname.id }}/member/" class="btn btn-info btn-lg active" role="button"><b>Members</b></a>
+				    <a href="/lightshare/{{ gname.id }}/lgroup/" class="btn btn-danger btn-lg active" role="button"><b>Leave Group</b></a>
+				    {% if adm %}
+				    <a href="/lightshare/{{ gname.id }}/dashboard/" class="btn btn-info btn-lg active" role="button"><b>Dashboard</b></a>
+				    {% endif %}
+				    </div>
+				</div>
+
+				<hr>
+
+				{% endif %}
+
+				{% block gcontent %}{% endblock gcontent %}
+
+			</div>
+
+		</div> <!-- end 2nd row -->
+
+	</div> <!-- end container -->
+
+{% endblock content %}

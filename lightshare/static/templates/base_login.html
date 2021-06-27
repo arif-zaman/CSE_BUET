@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="arif" >
+    <link rel="icon" href="/static/icon/favicon.ico">
+
+    <title>{% block title %}Lightshare{% endblock title %}</title>
+
+    <style type="text/css">
+      .well{
+        background-color: rgb(255, 255, 255);
+      }
+    </style>
+
+    <!-- CSS Files
+    ================================================== -->
+
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/notification.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/carousel.css">
+
+  </head>
+  
+  <body>
+  
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+    <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/lightshare/userhome/"><em><b>LightShare</b></em></a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+
+                <ul class = "nav navbar-nav">
+
+                    <li>
+                        <form action="/lightshare/search_result/page/1/$/" method="POST" class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                            <div class="form-group-group">
+                            <div class="input-group" style="width: 150%;padding-left: 30%">
+                                <input type="text" class="form-control" name="search" id="search" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><b class = "glyphicon glyphicon-search"></b></button>
+                                </span>
+                            </div>
+                            </div> <!-- END form group div -->
+
+                        </form> <!-- END search bar form -->
+                    </li>
+
+                </ul> <!-- END navbar list -->
+
+                <ul  class="nav navbar-nav pull-right" role="tablist">
+
+                    <!-- Notification Center -->
+                    <li id="notification_li">
+                    {% if num %}
+                        <span id="notification_count">{{ num }}</span>
+                    {% endif %}
+
+                    <a href="#" id="notificationLink"><em><b>Notifications</b></em></a>
+                    <div id="notificationContainer">
+                    <div id="notificationTitle"></div>
+                    <div id="notificationTitle">Notifications</div>
+                    <div id="notificationsBody" class="notifications">
+
+                        {% if notifi%}
+                            {% for n in notifi %}
+                                <p id="notificationTitle"><strong>{{ n.timestamp }} - {{ n.body|safe }}</strong></p>
+                            {% endfor %}
+                        {% else %}
+                            <h3 align="center">Notification Center Empty !!!</h3>
+                        {% endif %}
+
+                    </div>
+                    <div id="notificationFooter"><a href="/lightshare/notications/">See All</a></div>
+
+                    </li>
+
+                    <li><a href="/lightshare/userhome/"><em><b>Home</b></em></a></li> 
+
+                    <li><a href={% block pro %}"/lightshare/user/profile/0"{% endblock pro %}><em><b>{% block name %}{% endblock name %}</b></em></a></li>
+
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><em><b> Settings | Menu &nbsp</b></em> <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/lightshare/privacy_setting/">Privacy Setting</a></li>
+                        <li><a href="/lightshare/select_category/">Create Group</a></li>
+                        <li><a href="/lightshare/ad_mod_groups/">Manage Group</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/lightshare/feedback/">Report a Problem</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/lightshare/logout/">Logout</a></li>
+                    </ul>
+                    </li>
+                   
+                </ul>
+
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Custom Page Content-->
+    
+    {% block content %}{% endblock content %}
+
+    <!-- FOOTER -->
+
+    <div class="container">
+        
+        <hr class="featurette-divider">
+        
+        <footer>
+            <p class="pull-right"><b><a href="#">Back to top</a></b></p>
+            <p><b>&copy; 2014 CSE, BUET&middot;</b><p>
+        </footer>
+
+    </div>
+
+    <!-- JavaScript Files
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script type='text/javascript' src="/static/js/jquery.min.js"></script>
+    <script type='text/javascript' src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/notification.js"></script>
+    <!-- Nick Edit -->
+    <script type="text/javascript" src="http://js.nicedit.com/nicEdit-latest.js" ></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+
+  </body>
+</html>

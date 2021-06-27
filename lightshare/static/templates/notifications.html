@@ -1,0 +1,54 @@
+{% extends "base_login.html" %}
+
+{% block title %} {{ session_name }} {% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+</br></br></br></br>
+
+<hr>
+<div class="container">
+    <div class="row">
+
+        <div class="col-sm-3"><!--left col-->
+                               
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+            
+        </div><!--/col-3-->
+
+        <div class="col-sm-9">
+
+        <div>
+
+            <ul class="list-group">
+            <li class="list-group-item text-muted"><h3 align="center"><strong>All Notifications</strong></h3></li>
+            {% if notifi %}
+                {% for n in noti %}
+                    <li class="list-group-item text-muted">{{ n.timestamp }} - <strong>{{ n.body|safe }}</strong></li>
+                {% endfor %}
+            {% endif %}
+            </ul>
+
+        </div>
+
+          
+        </div><!--/col-9-->
+    </div><!--/row-->
+</div>
+
+{% endblock content %}

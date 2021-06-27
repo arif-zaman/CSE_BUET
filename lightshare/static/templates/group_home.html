@@ -1,0 +1,103 @@
+{% extends "group.html" %}
+
+    {% block group_search %}
+
+            <!-- Blog Search Well -->
+            <div class="panell panel-info">
+
+                <div class="panel-heading"><h4>Group Search</h4></div>
+                <ul class="list-group">
+                <li class="list-group-item text-muted">
+
+                 <form action="/lightshare/{{ gname.id }}/search_result/page/1/$/" method="POST"
+                       class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+                </li>
+                </ul>
+            </div>
+
+    {% endblock group_search %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+
+                <div>
+
+                    {% if articles %}
+
+                        {% for article in articles %}
+                            <div>
+
+                            <ul class="list-group">
+
+                            {% if article.pinned %}
+                                 <li class="list-group-item text-muted"><strong>Pinned Post</strong></li>
+                            {% endif %}
+
+                                <li class="list-group-item text-muted"><h3><a href="/lightshare/{{ gname.id }}/{{ article.id }}/"><b>{{ article.title }}</b></a></h3></li>
+
+                                <li class="list-group-item text-right"><span class="pull-left"><strong>Posted By : {{ article.writer }}</strong></span>{{ article.created }}</li>
+
+                                <li class="list-group-item text-muted"><b>{{ article.body|safe|truncatewords_html:10 }}</b></article></li>
+                            </ul>
+                            
+                            </div>
+                        {% endfor %}
+
+                    {% else %}
+
+                        <div class="well">
+                            <h2 align="center"><em><b>No Posts Yet..</b></em></h2>
+                        </div>
+
+                    {% endif %}
+
+                </div>
+
+                <!-- Pager -->
+                <ul class="pager">
+
+                    {% if old %}
+                            <li class="previous">
+                                <a href='/lightshare/{{ gname.id }}/page/{{ pid|add:"1"}}/'>&larr; Older</a>
+                            </li>
+                    {% endif %}
+
+                    {% if new %}
+                        <li class="next">
+                            <a href='/lightshare/{{ gname.id }}/page/{{ pid|add:"-1"}}/'>Newer &rarr;</a>
+                        </li>
+                    {% endif %}
+
+                </ul>
+
+    {% endblock gcontent %}

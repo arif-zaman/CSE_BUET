@@ -1,0 +1,93 @@
+{% extends "group.html" %}
+
+    {% block group_search %}
+
+            <!-- Blog Search Well -->
+            <div class="well">
+                <h4>Group Search</h4>
+                 <form action="/lightshare/{{ gname.id }}/search_result/page/1/$/" method="POST" class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+            </div>
+
+    {% endblock group_search %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+
+                <ul class="list-group">
+            
+                    {% for key, value in favs_list.items %}
+
+                    <li class="list-group-item text-muted"><a href="/lightshare/{{ key }}/home">{{ value }}</a></li>
+                        
+                    {% endfor %}
+
+                </ul>
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+
+                {% if invalid %}
+
+                    <h2 align="center">Invalid Keywords !! No Results Found.</h2>
+
+                {% else %}
+
+                    <h2 align="center">Available Search Results : {{ count }} </h2>
+                    <hr>
+
+                    <ul class="pager">
+
+                        {% if new %}
+                          <li class="previous">
+                          <a href='/lightshare/{{ gname.id }}/search_result/page/{{ pid|add:"-1"}}/{{ str1 }}/'>Previous &larr;</a>
+                          </li>
+                        {% endif %}
+
+                        {% if old %}
+                          <li class="next">  
+                            <a href='/lightshare/{{ gname.id }}/search_result/page/{{ pid|add:"1"}}/{{ str1 }}/'>&rarr; Next</a>
+                          </li>
+                        {% endif %}
+
+                    </ul>
+                    <br />
+
+                    {% if group %}
+
+                      {% for g in group %}
+
+                          <div class="col-lg-6">            
+                            <h2><a href="/lightshare/{{ gname.id }}/{{ g.id }}/">{{ g.title }}</a></h2>
+                            <h4><em><b>Posted By : {{ g.writer }}</b></em></h4>
+                            <h5><b>{{ g.created }}</b></h5>
+                            <hr>
+                          </div><!-- /.col-lg-4 -->
+
+                      {% endfor %}
+
+                    {% else %}
+
+                      <h2 align="center">No Results Found.</h2>
+
+                    {% endif %}
+
+                {% endif %}
+
+{% endblock gcontent %}

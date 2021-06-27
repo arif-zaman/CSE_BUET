@@ -1,0 +1,2330 @@
+1st Cell is Created!!
+Cell 1 has Started to Grow at 0
+Cell 1 Completes it's Growth at 0
+Cell 1 Joins Replication Server Queue at 0
+A Cell Completes it's Division at 9 and Created Two New Cell 2 and 3
+Yeah!! Cell 2 is Alive and Joined Cell Growth Queue
+Alas!! Cell 3 Has Been Died.
+Total Cell Present : 1
+Cell 2 has Started to Grow at 9
+Cell 2 Completes it's Growth at 9
+Cell 2 Joins Replication Server Queue at 9
+A Cell Completes it's Division at 35 and Created Two New Cell 4 and 5
+Alas!! Cell 4 Has Been Died.
+Yeah!! Cell 5 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+Cell 5 has Started to Grow at 35
+Cell 5 Completes it's Growth at 35
+Cell 5 Joins Replication Server Queue at 35
+A Cell Completes it's Division at 59 and Created Two New Cell 6 and 7
+Yeah!! Cell 6 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 7 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+Cell 6 has Started to Grow at 59
+Cell 6 Completes it's Growth at 59
+Cell 6 Joins Replication Server Queue at 59
+Cell 7 has Started to Grow at 59
+Cell 7 Completes it's Growth at 59
+Cell 7 Joins Replication Server Queue at 59
+A Cell Completes it's Division at 86 and Created Two New Cell 8 and 9
+Alas!! Cell 8 Has Been Died.
+Alas!! Cell 9 Has Been Died.
+Total Cell Present : 0
+A Cell Completes it's Division at 86 and Created Two New Cell 10 and 11
+Alas!! Cell 10 Has Been Died.
+Yeah!! Cell 11 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+Cell 11 has Started to Grow at 86
+Cell 11 Completes it's Growth at 86
+Cell 11 Joins Replication Server Queue at 86
+A Cell Completes it's Division at 110 and Created Two New Cell 12 and 13
+Yeah!! Cell 12 is Alive and Joined Cell Growth Queue
+Alas!! Cell 13 Has Been Died.
+Total Cell Present : 1
+Cell 12 has Started to Grow at 110
+Cell 12 Completes it's Growth at 110
+Cell 12 Joins Replication Server Queue at 110
+A Cell Completes it's Division at 138 and Created Two New Cell 14 and 15
+Alas!! Cell 14 Has Been Died.
+Yeah!! Cell 15 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+Cell 15 has Started to Grow at 138
+Cell 15 Completes it's Growth at 138
+Cell 15 Joins Replication Server Queue at 138
+A Cell Completes it's Division at 162 and Created Two New Cell 16 and 17
+Yeah!! Cell 16 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 17 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+Cell 16 has Started to Grow at 162
+Cell 16 Completes it's Growth at 162
+Cell 16 Joins Replication Server Queue at 162
+Cell 17 has Started to Grow at 162
+Cell 17 Completes it's Growth at 162
+Cell 17 Joins Replication Server Queue at 162
+A Cell Completes it's Division at 195 and Created Two New Cell 18 and 19
+Yeah!! Cell 18 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 19 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 195 and Created Two New Cell 20 and 21
+Alas!! Cell 20 Has Been Died.
+Yeah!! Cell 21 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+Cell 18 has Started to Grow at 195
+Cell 18 Completes it's Growth at 195
+Cell 18 Joins Replication Server Queue at 195
+Cell 19 has Started to Grow at 195
+Cell 19 Completes it's Growth at 195
+Cell 19 Joins Replication Server Queue at 195
+Cell 21 has Started to Grow at 195
+Cell 21 Completes it's Growth at 195
+Cell 21 Joins Replication Server Queue at 195
+A Cell Completes it's Division at 229 and Created Two New Cell 22 and 23
+Yeah!! Cell 22 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 23 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 229 and Created Two New Cell 24 and 25
+Alas!! Cell 24 Has Been Died.
+Yeah!! Cell 25 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 229 and Created Two New Cell 26 and 27
+Yeah!! Cell 26 is Alive and Joined Cell Growth Queue
+Alas!! Cell 27 Has Been Died.
+Total Cell Present : 4
+Cell 22 has Started to Grow at 229
+Cell 22 Completes it's Growth at 229
+Cell 22 Joins Replication Server Queue at 229
+Cell 23 has Started to Grow at 229
+Cell 23 Completes it's Growth at 229
+Cell 23 Joins Replication Server Queue at 229
+Cell 25 has Started to Grow at 229
+Cell 25 Completes it's Growth at 229
+Cell 25 Joins Replication Server Queue at 229
+Cell 26 has Started to Grow at 229
+Cell 26 Completes it's Growth at 229
+Cell 26 Joins Replication Server Queue at 229
+A Cell Completes it's Division at 280 and Created Two New Cell 28 and 29
+Alas!! Cell 28 Has Been Died.
+Yeah!! Cell 29 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+A Cell Completes it's Division at 280 and Created Two New Cell 30 and 31
+Yeah!! Cell 30 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 31 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 280 and Created Two New Cell 32 and 33
+Yeah!! Cell 32 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 33 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 280 and Created Two New Cell 34 and 35
+Yeah!! Cell 34 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 35 is Alive and Joined Cell Growth Queue
+Total Cell Present : 7
+Cell 29 has Started to Grow at 280
+Cell 29 Completes it's Growth at 280
+Cell 29 Joins Replication Server Queue at 280
+Cell 30 has Started to Grow at 280
+Cell 30 Completes it's Growth at 280
+Cell 30 Joins Replication Server Queue at 280
+Cell 31 has Started to Grow at 280
+Cell 31 Completes it's Growth at 280
+Cell 31 Joins Replication Server Queue at 280
+Cell 32 has Started to Grow at 280
+Cell 32 Completes it's Growth at 280
+Cell 32 Joins Replication Server Queue at 280
+Cell 33 has Started to Grow at 280
+Cell 33 Completes it's Growth at 280
+Cell 33 Joins Replication Server Queue at 280
+Cell 34 has Started to Grow at 280
+Cell 34 Completes it's Growth at 280
+Cell 34 Joins Replication Server Queue at 280
+Cell 35 has Started to Grow at 280
+Cell 35 Completes it's Growth at 280
+Cell 35 Joins Replication Server Queue at 280
+A Cell Completes it's Division at 335 and Created Two New Cell 36 and 37
+Alas!! Cell 36 Has Been Died.
+Alas!! Cell 37 Has Been Died.
+Total Cell Present : 0
+A Cell Completes it's Division at 335 and Created Two New Cell 38 and 39
+Yeah!! Cell 38 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 39 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 335 and Created Two New Cell 40 and 41
+Yeah!! Cell 40 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 41 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 335 and Created Two New Cell 42 and 43
+Alas!! Cell 42 Has Been Died.
+Alas!! Cell 43 Has Been Died.
+Total Cell Present : 4
+A Cell Completes it's Division at 335 and Created Two New Cell 44 and 45
+Yeah!! Cell 44 is Alive and Joined Cell Growth Queue
+Alas!! Cell 45 Has Been Died.
+Total Cell Present : 5
+A Cell Completes it's Division at 335 and Created Two New Cell 46 and 47
+Alas!! Cell 46 Has Been Died.
+Yeah!! Cell 47 is Alive and Joined Cell Growth Queue
+Total Cell Present : 6
+A Cell Completes it's Division at 335 and Created Two New Cell 48 and 49
+Yeah!! Cell 48 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 49 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+Cell 38 has Started to Grow at 335
+Cell 38 Completes it's Growth at 335
+Cell 38 Joins Replication Server Queue at 335
+Cell 39 has Started to Grow at 335
+Cell 39 Completes it's Growth at 335
+Cell 39 Joins Replication Server Queue at 335
+Cell 40 has Started to Grow at 335
+Cell 40 Completes it's Growth at 335
+Cell 40 Joins Replication Server Queue at 335
+Cell 41 has Started to Grow at 335
+Cell 41 Completes it's Growth at 335
+Cell 41 Joins Replication Server Queue at 335
+Cell 44 has Started to Grow at 335
+Cell 44 Completes it's Growth at 335
+Cell 44 Joins Replication Server Queue at 335
+Cell 47 has Started to Grow at 335
+Cell 47 Completes it's Growth at 335
+Cell 47 Joins Replication Server Queue at 335
+Cell 48 has Started to Grow at 335
+Cell 48 Completes it's Growth at 335
+Cell 48 Joins Replication Server Queue at 335
+Cell 49 has Started to Grow at 335
+Cell 49 Completes it's Growth at 335
+Cell 49 Joins Replication Server Queue at 335
+A Cell Completes it's Division at 388 and Created Two New Cell 50 and 51
+Alas!! Cell 50 Has Been Died.
+Yeah!! Cell 51 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+A Cell Completes it's Division at 388 and Created Two New Cell 52 and 53
+Alas!! Cell 52 Has Been Died.
+Alas!! Cell 53 Has Been Died.
+Total Cell Present : 1
+A Cell Completes it's Division at 388 and Created Two New Cell 54 and 55
+Alas!! Cell 54 Has Been Died.
+Alas!! Cell 55 Has Been Died.
+Total Cell Present : 1
+A Cell Completes it's Division at 388 and Created Two New Cell 56 and 57
+Alas!! Cell 56 Has Been Died.
+Yeah!! Cell 57 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 388 and Created Two New Cell 58 and 59
+Yeah!! Cell 58 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 59 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 388 and Created Two New Cell 60 and 61
+Alas!! Cell 60 Has Been Died.
+Yeah!! Cell 61 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 388 and Created Two New Cell 62 and 63
+Yeah!! Cell 62 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 63 is Alive and Joined Cell Growth Queue
+Total Cell Present : 7
+A Cell Completes it's Division at 388 and Created Two New Cell 64 and 65
+Yeah!! Cell 64 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 65 is Alive and Joined Cell Growth Queue
+Total Cell Present : 9
+Cell 51 has Started to Grow at 388
+Cell 51 Completes it's Growth at 388
+Cell 51 Joins Replication Server Queue at 388
+Cell 57 has Started to Grow at 388
+Cell 57 Completes it's Growth at 388
+Cell 57 Joins Replication Server Queue at 388
+Cell 58 has Started to Grow at 388
+Cell 58 Completes it's Growth at 388
+Cell 58 Joins Replication Server Queue at 388
+Cell 59 has Started to Grow at 388
+Cell 59 Completes it's Growth at 388
+Cell 59 Joins Replication Server Queue at 388
+Cell 61 has Started to Grow at 388
+Cell 61 Completes it's Growth at 388
+Cell 61 Joins Replication Server Queue at 388
+Cell 62 has Started to Grow at 388
+Cell 62 Completes it's Growth at 388
+Cell 62 Joins Replication Server Queue at 388
+Cell 63 has Started to Grow at 388
+Cell 63 Completes it's Growth at 388
+Cell 63 Joins Replication Server Queue at 388
+Cell 64 has Started to Grow at 388
+Cell 64 Completes it's Growth at 388
+Cell 64 Joins Replication Server Queue at 388
+Cell 65 has Started to Grow at 388
+Cell 65 Completes it's Growth at 388
+Cell 65 Joins Replication Server Queue at 388
+A Cell Completes it's Division at 441 and Created Two New Cell 66 and 67
+Yeah!! Cell 66 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 67 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 441 and Created Two New Cell 68 and 69
+Yeah!! Cell 68 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 69 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 441 and Created Two New Cell 70 and 71
+Yeah!! Cell 70 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 71 is Alive and Joined Cell Growth Queue
+Total Cell Present : 6
+A Cell Completes it's Division at 441 and Created Two New Cell 72 and 73
+Alas!! Cell 72 Has Been Died.
+Alas!! Cell 73 Has Been Died.
+Total Cell Present : 6
+A Cell Completes it's Division at 441 and Created Two New Cell 74 and 75
+Yeah!! Cell 74 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 75 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+A Cell Completes it's Division at 441 and Created Two New Cell 76 and 77
+Yeah!! Cell 76 is Alive and Joined Cell Growth Queue
+Alas!! Cell 77 Has Been Died.
+Total Cell Present : 9
+A Cell Completes it's Division at 441 and Created Two New Cell 78 and 79
+Alas!! Cell 78 Has Been Died.
+Yeah!! Cell 79 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 441 and Created Two New Cell 80 and 81
+Yeah!! Cell 80 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 81 is Alive and Joined Cell Growth Queue
+Total Cell Present : 12
+A Cell Completes it's Division at 441 and Created Two New Cell 82 and 83
+Yeah!! Cell 82 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 83 is Alive and Joined Cell Growth Queue
+Total Cell Present : 14
+Cell 66 has Started to Grow at 441
+Cell 66 Completes it's Growth at 441
+Cell 66 Joins Replication Server Queue at 441
+Cell 67 has Started to Grow at 441
+Cell 67 Completes it's Growth at 441
+Cell 67 Joins Replication Server Queue at 441
+Cell 68 has Started to Grow at 441
+Cell 68 Completes it's Growth at 441
+Cell 68 Joins Replication Server Queue at 441
+Cell 69 has Started to Grow at 441
+Cell 69 Completes it's Growth at 441
+Cell 69 Joins Replication Server Queue at 441
+Cell 70 has Started to Grow at 441
+Cell 70 Completes it's Growth at 441
+Cell 70 Joins Replication Server Queue at 441
+Cell 71 has Started to Grow at 441
+Cell 71 Completes it's Growth at 441
+Cell 71 Joins Replication Server Queue at 441
+Cell 74 has Started to Grow at 441
+Cell 74 Completes it's Growth at 441
+Cell 74 Joins Replication Server Queue at 441
+Cell 75 has Started to Grow at 441
+Cell 75 Completes it's Growth at 441
+Cell 75 Joins Replication Server Queue at 441
+Cell 76 has Started to Grow at 441
+Cell 76 Completes it's Growth at 441
+Cell 76 Joins Replication Server Queue at 441
+Cell 79 has Started to Grow at 441
+Cell 79 Completes it's Growth at 441
+Cell 79 Joins Replication Server Queue at 441
+Cell 80 has Started to Grow at 441
+Cell 80 Completes it's Growth at 441
+Cell 80 Joins Replication Server Queue at 441
+Cell 81 has Started to Grow at 441
+Cell 81 Completes it's Growth at 441
+Cell 81 Joins Replication Server Queue at 441
+Cell 82 has Started to Grow at 441
+Cell 82 Completes it's Growth at 441
+Cell 82 Joins Replication Server Queue at 441
+Cell 83 has Started to Grow at 441
+Cell 83 Completes it's Growth at 441
+Cell 83 Joins Replication Server Queue at 441
+A Cell Completes it's Division at 495 and Created Two New Cell 84 and 85
+Alas!! Cell 84 Has Been Died.
+Yeah!! Cell 85 is Alive and Joined Cell Growth Queue
+Total Cell Present : 1
+A Cell Completes it's Division at 495 and Created Two New Cell 86 and 87
+Alas!! Cell 86 Has Been Died.
+Yeah!! Cell 87 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 495 and Created Two New Cell 88 and 89
+Yeah!! Cell 88 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 89 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 495 and Created Two New Cell 90 and 91
+Yeah!! Cell 90 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 91 is Alive and Joined Cell Growth Queue
+Total Cell Present : 6
+A Cell Completes it's Division at 495 and Created Two New Cell 92 and 93
+Yeah!! Cell 92 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 93 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+A Cell Completes it's Division at 495 and Created Two New Cell 94 and 95
+Yeah!! Cell 94 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 95 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 495 and Created Two New Cell 96 and 97
+Alas!! Cell 96 Has Been Died.
+Yeah!! Cell 97 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 495 and Created Two New Cell 98 and 99
+Yeah!! Cell 98 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 99 is Alive and Joined Cell Growth Queue
+Total Cell Present : 13
+A Cell Completes it's Division at 495 and Created Two New Cell 100 and 101
+Alas!! Cell 100 Has Been Died.
+Yeah!! Cell 101 is Alive and Joined Cell Growth Queue
+Total Cell Present : 14
+A Cell Completes it's Division at 495 and Created Two New Cell 102 and 103
+Yeah!! Cell 102 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 103 is Alive and Joined Cell Growth Queue
+Total Cell Present : 16
+A Cell Completes it's Division at 495 and Created Two New Cell 104 and 105
+Yeah!! Cell 104 is Alive and Joined Cell Growth Queue
+Alas!! Cell 105 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 495 and Created Two New Cell 106 and 107
+Alas!! Cell 106 Has Been Died.
+Yeah!! Cell 107 is Alive and Joined Cell Growth Queue
+Total Cell Present : 18
+A Cell Completes it's Division at 495 and Created Two New Cell 108 and 109
+Yeah!! Cell 108 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 109 is Alive and Joined Cell Growth Queue
+Total Cell Present : 20
+A Cell Completes it's Division at 495 and Created Two New Cell 110 and 111
+Yeah!! Cell 110 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 111 is Alive and Joined Cell Growth Queue
+Total Cell Present : 22
+Cell 85 has Started to Grow at 503
+Cell 85 Completes it's Growth at 503
+Cell 85 Joins Replication Server Queue at 503
+Cell 87 has Started to Grow at 503
+Cell 87 Completes it's Growth at 503
+Cell 87 Joins Replication Server Queue at 503
+Cell 88 has Started to Grow at 503
+Cell 88 Completes it's Growth at 503
+Cell 88 Joins Replication Server Queue at 503
+Cell 89 has Started to Grow at 503
+Cell 89 Completes it's Growth at 503
+Cell 89 Joins Replication Server Queue at 503
+Cell 90 has Started to Grow at 503
+Cell 90 Completes it's Growth at 503
+Cell 90 Joins Replication Server Queue at 503
+Cell 91 has Started to Grow at 503
+Cell 91 Completes it's Growth at 503
+Cell 91 Joins Replication Server Queue at 503
+Cell 92 has Started to Grow at 503
+Cell 92 Completes it's Growth at 503
+Cell 92 Joins Replication Server Queue at 503
+Cell 93 has Started to Grow at 503
+Cell 93 Completes it's Growth at 503
+Cell 93 Joins Replication Server Queue at 503
+Cell 94 has Started to Grow at 503
+Cell 94 Completes it's Growth at 503
+Cell 94 Joins Replication Server Queue at 503
+Cell 95 has Started to Grow at 503
+Cell 95 Completes it's Growth at 503
+Cell 95 Joins Replication Server Queue at 503
+Cell 97 has Started to Grow at 503
+Cell 97 Completes it's Growth at 503
+Cell 97 Joins Replication Server Queue at 503
+Cell 98 has Started to Grow at 503
+Cell 98 Completes it's Growth at 503
+Cell 98 Joins Replication Server Queue at 503
+Cell 99 has Started to Grow at 503
+Cell 99 Completes it's Growth at 503
+Cell 99 Joins Replication Server Queue at 503
+Cell 101 has Started to Grow at 503
+Cell 101 Completes it's Growth at 503
+Cell 101 Joins Replication Server Queue at 503
+Cell 102 has Started to Grow at 503
+Cell 102 Completes it's Growth at 503
+Cell 102 Joins Replication Server Queue at 503
+Cell 103 has Started to Grow at 503
+Cell 103 Completes it's Growth at 503
+Cell 103 Joins Replication Server Queue at 503
+Cell 104 has Started to Grow at 503
+Cell 104 Completes it's Growth at 503
+Cell 104 Joins Replication Server Queue at 503
+Cell 107 has Started to Grow at 503
+Cell 107 Completes it's Growth at 503
+Cell 107 Joins Replication Server Queue at 503
+Cell 108 has Started to Grow at 503
+Cell 108 Completes it's Growth at 503
+Cell 108 Joins Replication Server Queue at 503
+Cell 109 has Started to Grow at 503
+Cell 109 Completes it's Growth at 503
+Cell 109 Joins Replication Server Queue at 503
+Cell 110 has Started to Grow at 503
+Cell 110 Completes it's Growth at 503
+Cell 110 Joins Replication Server Queue at 503
+Cell 111 has Started to Grow at 503
+Cell 111 Completes it's Growth at 503
+Cell 111 Joins Replication Server Queue at 503
+A Cell Completes it's Division at 557 and Created Two New Cell 112 and 113
+Yeah!! Cell 112 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 113 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 557 and Created Two New Cell 114 and 115
+Alas!! Cell 114 Has Been Died.
+Alas!! Cell 115 Has Been Died.
+Total Cell Present : 2
+A Cell Completes it's Division at 557 and Created Two New Cell 116 and 117
+Yeah!! Cell 116 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 117 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 557 and Created Two New Cell 118 and 119
+Alas!! Cell 118 Has Been Died.
+Yeah!! Cell 119 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 557 and Created Two New Cell 120 and 121
+Yeah!! Cell 120 is Alive and Joined Cell Growth Queue
+Alas!! Cell 121 Has Been Died.
+Total Cell Present : 6
+A Cell Completes it's Division at 557 and Created Two New Cell 122 and 123
+Yeah!! Cell 122 is Alive and Joined Cell Growth Queue
+Alas!! Cell 123 Has Been Died.
+Total Cell Present : 7
+A Cell Completes it's Division at 557 and Created Two New Cell 124 and 125
+Alas!! Cell 124 Has Been Died.
+Alas!! Cell 125 Has Been Died.
+Total Cell Present : 7
+A Cell Completes it's Division at 557 and Created Two New Cell 126 and 127
+Yeah!! Cell 126 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 127 is Alive and Joined Cell Growth Queue
+Total Cell Present : 9
+A Cell Completes it's Division at 557 and Created Two New Cell 128 and 129
+Alas!! Cell 128 Has Been Died.
+Yeah!! Cell 129 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 557 and Created Two New Cell 130 and 131
+Alas!! Cell 130 Has Been Died.
+Alas!! Cell 131 Has Been Died.
+Total Cell Present : 10
+A Cell Completes it's Division at 557 and Created Two New Cell 132 and 133
+Alas!! Cell 132 Has Been Died.
+Alas!! Cell 133 Has Been Died.
+Total Cell Present : 10
+A Cell Completes it's Division at 557 and Created Two New Cell 134 and 135
+Alas!! Cell 134 Has Been Died.
+Yeah!! Cell 135 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 557 and Created Two New Cell 136 and 137
+Alas!! Cell 136 Has Been Died.
+Alas!! Cell 137 Has Been Died.
+Total Cell Present : 11
+A Cell Completes it's Division at 557 and Created Two New Cell 138 and 139
+Yeah!! Cell 138 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 139 is Alive and Joined Cell Growth Queue
+Total Cell Present : 13
+A Cell Completes it's Division at 557 and Created Two New Cell 140 and 141
+Yeah!! Cell 140 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 141 is Alive and Joined Cell Growth Queue
+Total Cell Present : 15
+A Cell Completes it's Division at 557 and Created Two New Cell 142 and 143
+Yeah!! Cell 142 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 143 is Alive and Joined Cell Growth Queue
+Total Cell Present : 17
+A Cell Completes it's Division at 557 and Created Two New Cell 144 and 145
+Alas!! Cell 144 Has Been Died.
+Alas!! Cell 145 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 557 and Created Two New Cell 146 and 147
+Yeah!! Cell 146 is Alive and Joined Cell Growth Queue
+Alas!! Cell 147 Has Been Died.
+Total Cell Present : 18
+A Cell Completes it's Division at 557 and Created Two New Cell 148 and 149
+Yeah!! Cell 148 is Alive and Joined Cell Growth Queue
+Alas!! Cell 149 Has Been Died.
+Total Cell Present : 19
+A Cell Completes it's Division at 557 and Created Two New Cell 150 and 151
+Alas!! Cell 150 Has Been Died.
+Alas!! Cell 151 Has Been Died.
+Total Cell Present : 19
+A Cell Completes it's Division at 557 and Created Two New Cell 152 and 153
+Yeah!! Cell 152 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 153 is Alive and Joined Cell Growth Queue
+Total Cell Present : 21
+A Cell Completes it's Division at 557 and Created Two New Cell 154 and 155
+Alas!! Cell 154 Has Been Died.
+Yeah!! Cell 155 is Alive and Joined Cell Growth Queue
+Total Cell Present : 22
+Cell 112 has Started to Grow at 568
+Cell 112 Completes it's Growth at 568
+Cell 112 Joins Replication Server Queue at 568
+Cell 113 has Started to Grow at 568
+Cell 113 Completes it's Growth at 568
+Cell 113 Joins Replication Server Queue at 568
+Cell 116 has Started to Grow at 568
+Cell 116 Completes it's Growth at 568
+Cell 116 Joins Replication Server Queue at 568
+Cell 117 has Started to Grow at 568
+Cell 117 Completes it's Growth at 568
+Cell 117 Joins Replication Server Queue at 568
+Cell 119 has Started to Grow at 568
+Cell 119 Completes it's Growth at 568
+Cell 119 Joins Replication Server Queue at 568
+Cell 120 has Started to Grow at 568
+Cell 120 Completes it's Growth at 568
+Cell 120 Joins Replication Server Queue at 568
+Cell 122 has Started to Grow at 568
+Cell 122 Completes it's Growth at 568
+Cell 122 Joins Replication Server Queue at 568
+Cell 126 has Started to Grow at 568
+Cell 126 Completes it's Growth at 568
+Cell 126 Joins Replication Server Queue at 568
+Cell 127 has Started to Grow at 568
+Cell 127 Completes it's Growth at 568
+Cell 127 Joins Replication Server Queue at 568
+Cell 129 has Started to Grow at 568
+Cell 129 Completes it's Growth at 568
+Cell 129 Joins Replication Server Queue at 568
+Cell 135 has Started to Grow at 568
+Cell 135 Completes it's Growth at 568
+Cell 135 Joins Replication Server Queue at 568
+Cell 138 has Started to Grow at 568
+Cell 138 Completes it's Growth at 568
+Cell 138 Joins Replication Server Queue at 568
+Cell 139 has Started to Grow at 568
+Cell 139 Completes it's Growth at 568
+Cell 139 Joins Replication Server Queue at 568
+Cell 140 has Started to Grow at 568
+Cell 140 Completes it's Growth at 568
+Cell 140 Joins Replication Server Queue at 568
+Cell 141 has Started to Grow at 568
+Cell 141 Completes it's Growth at 568
+Cell 141 Joins Replication Server Queue at 568
+Cell 142 has Started to Grow at 568
+Cell 142 Completes it's Growth at 568
+Cell 142 Joins Replication Server Queue at 568
+Cell 143 has Started to Grow at 568
+Cell 143 Completes it's Growth at 568
+Cell 143 Joins Replication Server Queue at 568
+Cell 146 has Started to Grow at 568
+Cell 146 Completes it's Growth at 568
+Cell 146 Joins Replication Server Queue at 568
+Cell 148 has Started to Grow at 568
+Cell 148 Completes it's Growth at 568
+Cell 148 Joins Replication Server Queue at 568
+Cell 152 has Started to Grow at 568
+Cell 152 Completes it's Growth at 568
+Cell 152 Joins Replication Server Queue at 568
+Cell 153 has Started to Grow at 568
+Cell 153 Completes it's Growth at 568
+Cell 153 Joins Replication Server Queue at 568
+Cell 155 has Started to Grow at 568
+Cell 155 Completes it's Growth at 568
+Cell 155 Joins Replication Server Queue at 568
+A Cell Completes it's Division at 621 and Created Two New Cell 156 and 157
+Yeah!! Cell 156 is Alive and Joined Cell Growth Queue
+Alas!! Cell 157 Has Been Died.
+Total Cell Present : 1
+A Cell Completes it's Division at 621 and Created Two New Cell 158 and 159
+Yeah!! Cell 158 is Alive and Joined Cell Growth Queue
+Alas!! Cell 159 Has Been Died.
+Total Cell Present : 2
+A Cell Completes it's Division at 621 and Created Two New Cell 160 and 161
+Yeah!! Cell 160 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 161 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 621 and Created Two New Cell 162 and 163
+Alas!! Cell 162 Has Been Died.
+Alas!! Cell 163 Has Been Died.
+Total Cell Present : 4
+A Cell Completes it's Division at 621 and Created Two New Cell 164 and 165
+Alas!! Cell 164 Has Been Died.
+Yeah!! Cell 165 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 621 and Created Two New Cell 166 and 167
+Alas!! Cell 166 Has Been Died.
+Yeah!! Cell 167 is Alive and Joined Cell Growth Queue
+Total Cell Present : 6
+A Cell Completes it's Division at 621 and Created Two New Cell 168 and 169
+Yeah!! Cell 168 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 169 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+A Cell Completes it's Division at 621 and Created Two New Cell 170 and 171
+Alas!! Cell 170 Has Been Died.
+Alas!! Cell 171 Has Been Died.
+Total Cell Present : 8
+A Cell Completes it's Division at 621 and Created Two New Cell 172 and 173
+Alas!! Cell 172 Has Been Died.
+Alas!! Cell 173 Has Been Died.
+Total Cell Present : 8
+A Cell Completes it's Division at 621 and Created Two New Cell 174 and 175
+Yeah!! Cell 174 is Alive and Joined Cell Growth Queue
+Alas!! Cell 175 Has Been Died.
+Total Cell Present : 9
+A Cell Completes it's Division at 621 and Created Two New Cell 176 and 177
+Alas!! Cell 176 Has Been Died.
+Yeah!! Cell 177 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 621 and Created Two New Cell 178 and 179
+Yeah!! Cell 178 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 179 is Alive and Joined Cell Growth Queue
+Total Cell Present : 12
+A Cell Completes it's Division at 621 and Created Two New Cell 180 and 181
+Yeah!! Cell 180 is Alive and Joined Cell Growth Queue
+Alas!! Cell 181 Has Been Died.
+Total Cell Present : 13
+A Cell Completes it's Division at 621 and Created Two New Cell 182 and 183
+Yeah!! Cell 182 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 183 is Alive and Joined Cell Growth Queue
+Total Cell Present : 15
+A Cell Completes it's Division at 621 and Created Two New Cell 184 and 185
+Yeah!! Cell 184 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 185 is Alive and Joined Cell Growth Queue
+Total Cell Present : 17
+A Cell Completes it's Division at 621 and Created Two New Cell 186 and 187
+Yeah!! Cell 186 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 187 is Alive and Joined Cell Growth Queue
+Total Cell Present : 19
+A Cell Completes it's Division at 621 and Created Two New Cell 188 and 189
+Alas!! Cell 188 Has Been Died.
+Yeah!! Cell 189 is Alive and Joined Cell Growth Queue
+Total Cell Present : 20
+A Cell Completes it's Division at 621 and Created Two New Cell 190 and 191
+Alas!! Cell 190 Has Been Died.
+Alas!! Cell 191 Has Been Died.
+Total Cell Present : 20
+A Cell Completes it's Division at 621 and Created Two New Cell 192 and 193
+Yeah!! Cell 192 is Alive and Joined Cell Growth Queue
+Alas!! Cell 193 Has Been Died.
+Total Cell Present : 21
+A Cell Completes it's Division at 621 and Created Two New Cell 194 and 195
+Alas!! Cell 194 Has Been Died.
+Alas!! Cell 195 Has Been Died.
+Total Cell Present : 21
+A Cell Completes it's Division at 621 and Created Two New Cell 196 and 197
+Yeah!! Cell 196 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 197 is Alive and Joined Cell Growth Queue
+Total Cell Present : 23
+A Cell Completes it's Division at 621 and Created Two New Cell 198 and 199
+Alas!! Cell 198 Has Been Died.
+Yeah!! Cell 199 is Alive and Joined Cell Growth Queue
+Total Cell Present : 24
+Cell 156 has Started to Grow at 633
+Cell 156 Completes it's Growth at 633
+Cell 156 Joins Replication Server Queue at 633
+Cell 158 has Started to Grow at 633
+Cell 158 Completes it's Growth at 633
+Cell 158 Joins Replication Server Queue at 633
+Cell 160 has Started to Grow at 633
+Cell 160 Completes it's Growth at 633
+Cell 160 Joins Replication Server Queue at 633
+Cell 161 has Started to Grow at 633
+Cell 161 Completes it's Growth at 633
+Cell 161 Joins Replication Server Queue at 633
+Cell 165 has Started to Grow at 633
+Cell 165 Completes it's Growth at 633
+Cell 165 Joins Replication Server Queue at 633
+Cell 167 has Started to Grow at 633
+Cell 167 Completes it's Growth at 633
+Cell 167 Joins Replication Server Queue at 633
+Cell 168 has Started to Grow at 633
+Cell 168 Completes it's Growth at 633
+Cell 168 Joins Replication Server Queue at 633
+Cell 169 has Started to Grow at 633
+Cell 169 Completes it's Growth at 633
+Cell 169 Joins Replication Server Queue at 633
+Cell 174 has Started to Grow at 633
+Cell 174 Completes it's Growth at 633
+Cell 174 Joins Replication Server Queue at 633
+Cell 177 has Started to Grow at 633
+Cell 177 Completes it's Growth at 633
+Cell 177 Joins Replication Server Queue at 633
+Cell 178 has Started to Grow at 633
+Cell 178 Completes it's Growth at 633
+Cell 178 Joins Replication Server Queue at 633
+Cell 179 has Started to Grow at 633
+Cell 179 Completes it's Growth at 633
+Cell 179 Joins Replication Server Queue at 633
+Cell 180 has Started to Grow at 633
+Cell 180 Completes it's Growth at 633
+Cell 180 Joins Replication Server Queue at 633
+Cell 182 has Started to Grow at 633
+Cell 182 Completes it's Growth at 633
+Cell 182 Joins Replication Server Queue at 633
+Cell 183 has Started to Grow at 633
+Cell 183 Completes it's Growth at 633
+Cell 183 Joins Replication Server Queue at 633
+Cell 184 has Started to Grow at 633
+Cell 184 Completes it's Growth at 633
+Cell 184 Joins Replication Server Queue at 633
+Cell 185 has Started to Grow at 633
+Cell 185 Completes it's Growth at 633
+Cell 185 Joins Replication Server Queue at 633
+Cell 186 has Started to Grow at 633
+Cell 186 Completes it's Growth at 633
+Cell 186 Joins Replication Server Queue at 633
+Cell 187 has Started to Grow at 633
+Cell 187 Completes it's Growth at 633
+Cell 187 Joins Replication Server Queue at 633
+Cell 189 has Started to Grow at 633
+Cell 189 Completes it's Growth at 633
+Cell 189 Joins Replication Server Queue at 633
+Cell 192 has Started to Grow at 633
+Cell 192 Completes it's Growth at 633
+Cell 192 Joins Replication Server Queue at 633
+Cell 196 has Started to Grow at 633
+Cell 196 Completes it's Growth at 633
+Cell 196 Joins Replication Server Queue at 633
+Cell 197 has Started to Grow at 633
+Cell 197 Completes it's Growth at 633
+Cell 197 Joins Replication Server Queue at 633
+Cell 199 has Started to Grow at 633
+Cell 199 Completes it's Growth at 633
+Cell 199 Joins Replication Server Queue at 633
+A Cell Completes it's Division at 690 and Created Two New Cell 200 and 201
+Yeah!! Cell 200 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 201 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 690 and Created Two New Cell 202 and 203
+Alas!! Cell 202 Has Been Died.
+Yeah!! Cell 203 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 690 and Created Two New Cell 204 and 205
+Yeah!! Cell 204 is Alive and Joined Cell Growth Queue
+Alas!! Cell 205 Has Been Died.
+Total Cell Present : 4
+A Cell Completes it's Division at 690 and Created Two New Cell 206 and 207
+Alas!! Cell 206 Has Been Died.
+Alas!! Cell 207 Has Been Died.
+Total Cell Present : 4
+A Cell Completes it's Division at 690 and Created Two New Cell 208 and 209
+Yeah!! Cell 208 is Alive and Joined Cell Growth Queue
+Alas!! Cell 209 Has Been Died.
+Total Cell Present : 5
+A Cell Completes it's Division at 690 and Created Two New Cell 210 and 211
+Yeah!! Cell 210 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 211 is Alive and Joined Cell Growth Queue
+Total Cell Present : 7
+A Cell Completes it's Division at 690 and Created Two New Cell 212 and 213
+Yeah!! Cell 212 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 213 is Alive and Joined Cell Growth Queue
+Total Cell Present : 9
+A Cell Completes it's Division at 690 and Created Two New Cell 214 and 215
+Yeah!! Cell 214 is Alive and Joined Cell Growth Queue
+Alas!! Cell 215 Has Been Died.
+Total Cell Present : 10
+A Cell Completes it's Division at 690 and Created Two New Cell 216 and 217
+Alas!! Cell 216 Has Been Died.
+Yeah!! Cell 217 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 690 and Created Two New Cell 218 and 219
+Yeah!! Cell 218 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 219 is Alive and Joined Cell Growth Queue
+Total Cell Present : 13
+A Cell Completes it's Division at 690 and Created Two New Cell 220 and 221
+Yeah!! Cell 220 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 221 is Alive and Joined Cell Growth Queue
+Total Cell Present : 15
+A Cell Completes it's Division at 690 and Created Two New Cell 222 and 223
+Yeah!! Cell 222 is Alive and Joined Cell Growth Queue
+Alas!! Cell 223 Has Been Died.
+Total Cell Present : 16
+A Cell Completes it's Division at 690 and Created Two New Cell 224 and 225
+Alas!! Cell 224 Has Been Died.
+Alas!! Cell 225 Has Been Died.
+Total Cell Present : 16
+A Cell Completes it's Division at 690 and Created Two New Cell 226 and 227
+Yeah!! Cell 226 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 227 is Alive and Joined Cell Growth Queue
+Total Cell Present : 18
+A Cell Completes it's Division at 690 and Created Two New Cell 228 and 229
+Yeah!! Cell 228 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 229 is Alive and Joined Cell Growth Queue
+Total Cell Present : 20
+A Cell Completes it's Division at 690 and Created Two New Cell 230 and 231
+Yeah!! Cell 230 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 231 is Alive and Joined Cell Growth Queue
+Total Cell Present : 22
+A Cell Completes it's Division at 690 and Created Two New Cell 232 and 233
+Alas!! Cell 232 Has Been Died.
+Yeah!! Cell 233 is Alive and Joined Cell Growth Queue
+Total Cell Present : 23
+A Cell Completes it's Division at 690 and Created Two New Cell 234 and 235
+Yeah!! Cell 234 is Alive and Joined Cell Growth Queue
+Alas!! Cell 235 Has Been Died.
+Total Cell Present : 24
+A Cell Completes it's Division at 690 and Created Two New Cell 236 and 237
+Yeah!! Cell 236 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 237 is Alive and Joined Cell Growth Queue
+Total Cell Present : 26
+A Cell Completes it's Division at 690 and Created Two New Cell 238 and 239
+Alas!! Cell 238 Has Been Died.
+Yeah!! Cell 239 is Alive and Joined Cell Growth Queue
+Total Cell Present : 27
+A Cell Completes it's Division at 690 and Created Two New Cell 240 and 241
+Yeah!! Cell 240 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 241 is Alive and Joined Cell Growth Queue
+Total Cell Present : 29
+A Cell Completes it's Division at 690 and Created Two New Cell 242 and 243
+Yeah!! Cell 242 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 243 is Alive and Joined Cell Growth Queue
+Total Cell Present : 31
+A Cell Completes it's Division at 690 and Created Two New Cell 244 and 245
+Yeah!! Cell 244 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 245 is Alive and Joined Cell Growth Queue
+Total Cell Present : 33
+A Cell Completes it's Division at 690 and Created Two New Cell 246 and 247
+Yeah!! Cell 246 is Alive and Joined Cell Growth Queue
+Alas!! Cell 247 Has Been Died.
+Total Cell Present : 34
+Cell 200 has Started to Grow at 701
+Cell 200 Completes it's Growth at 701
+Cell 200 Joins Replication Server Queue at 701
+Cell 201 has Started to Grow at 701
+Cell 201 Completes it's Growth at 701
+Cell 201 Joins Replication Server Queue at 701
+Cell 203 has Started to Grow at 701
+Cell 203 Completes it's Growth at 701
+Cell 203 Joins Replication Server Queue at 701
+Cell 204 has Started to Grow at 701
+Cell 204 Completes it's Growth at 701
+Cell 204 Joins Replication Server Queue at 701
+Cell 208 has Started to Grow at 701
+Cell 208 Completes it's Growth at 701
+Cell 208 Joins Replication Server Queue at 701
+Cell 210 has Started to Grow at 701
+Cell 210 Completes it's Growth at 701
+Cell 210 Joins Replication Server Queue at 701
+Cell 211 has Started to Grow at 701
+Cell 211 Completes it's Growth at 701
+Cell 211 Joins Replication Server Queue at 701
+Cell 212 has Started to Grow at 701
+Cell 212 Completes it's Growth at 701
+Cell 212 Joins Replication Server Queue at 701
+Cell 213 has Started to Grow at 701
+Cell 213 Completes it's Growth at 701
+Cell 213 Joins Replication Server Queue at 701
+Cell 214 has Started to Grow at 701
+Cell 214 Completes it's Growth at 701
+Cell 214 Joins Replication Server Queue at 701
+Cell 217 has Started to Grow at 701
+Cell 217 Completes it's Growth at 701
+Cell 217 Joins Replication Server Queue at 701
+Cell 218 has Started to Grow at 701
+Cell 218 Completes it's Growth at 701
+Cell 218 Joins Replication Server Queue at 701
+Cell 219 has Started to Grow at 701
+Cell 219 Completes it's Growth at 701
+Cell 219 Joins Replication Server Queue at 701
+Cell 220 has Started to Grow at 701
+Cell 220 Completes it's Growth at 701
+Cell 220 Joins Replication Server Queue at 701
+Cell 221 has Started to Grow at 701
+Cell 221 Completes it's Growth at 701
+Cell 221 Joins Replication Server Queue at 701
+Cell 222 has Started to Grow at 701
+Cell 222 Completes it's Growth at 701
+Cell 222 Joins Replication Server Queue at 701
+Cell 226 has Started to Grow at 701
+Cell 226 Completes it's Growth at 701
+Cell 226 Joins Replication Server Queue at 701
+Cell 227 has Started to Grow at 701
+Cell 227 Completes it's Growth at 701
+Cell 227 Joins Replication Server Queue at 701
+Cell 228 has Started to Grow at 701
+Cell 228 Completes it's Growth at 701
+Cell 228 Joins Replication Server Queue at 701
+Cell 229 has Started to Grow at 701
+Cell 229 Completes it's Growth at 701
+Cell 229 Joins Replication Server Queue at 701
+Cell 230 has Started to Grow at 701
+Cell 230 Completes it's Growth at 701
+Cell 230 Joins Replication Server Queue at 701
+Cell 231 has Started to Grow at 701
+Cell 231 Completes it's Growth at 701
+Cell 231 Joins Replication Server Queue at 701
+Cell 233 has Started to Grow at 701
+Cell 233 Completes it's Growth at 701
+Cell 233 Joins Replication Server Queue at 701
+Cell 234 has Started to Grow at 701
+Cell 234 Completes it's Growth at 701
+Cell 234 Joins Replication Server Queue at 701
+Cell 236 has Started to Grow at 701
+Cell 236 Completes it's Growth at 701
+Cell 236 Joins Replication Server Queue at 701
+Cell 237 has Started to Grow at 701
+Cell 237 Completes it's Growth at 701
+Cell 237 Joins Replication Server Queue at 701
+Cell 239 has Started to Grow at 701
+Cell 239 Completes it's Growth at 701
+Cell 239 Joins Replication Server Queue at 701
+Cell 240 has Started to Grow at 701
+Cell 240 Completes it's Growth at 701
+Cell 240 Joins Replication Server Queue at 701
+Cell 241 has Started to Grow at 701
+Cell 241 Completes it's Growth at 701
+Cell 241 Joins Replication Server Queue at 701
+Cell 242 has Started to Grow at 701
+Cell 242 Completes it's Growth at 701
+Cell 242 Joins Replication Server Queue at 701
+Cell 243 has Started to Grow at 701
+Cell 243 Completes it's Growth at 701
+Cell 243 Joins Replication Server Queue at 701
+Cell 244 has Started to Grow at 701
+Cell 244 Completes it's Growth at 701
+Cell 244 Joins Replication Server Queue at 701
+Cell 245 has Started to Grow at 701
+Cell 245 Completes it's Growth at 701
+Cell 245 Joins Replication Server Queue at 701
+Cell 246 has Started to Grow at 701
+Cell 246 Completes it's Growth at 701
+Cell 246 Joins Replication Server Queue at 701
+A Cell Completes it's Division at 759 and Created Two New Cell 248 and 249
+Yeah!! Cell 248 is Alive and Joined Cell Growth Queue
+Alas!! Cell 249 Has Been Died.
+Total Cell Present : 1
+A Cell Completes it's Division at 759 and Created Two New Cell 250 and 251
+Yeah!! Cell 250 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 251 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 759 and Created Two New Cell 252 and 253
+Yeah!! Cell 252 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 253 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 759 and Created Two New Cell 254 and 255
+Alas!! Cell 254 Has Been Died.
+Alas!! Cell 255 Has Been Died.
+Total Cell Present : 5
+A Cell Completes it's Division at 759 and Created Two New Cell 256 and 257
+Yeah!! Cell 256 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 257 is Alive and Joined Cell Growth Queue
+Total Cell Present : 7
+A Cell Completes it's Division at 759 and Created Two New Cell 258 and 259
+Yeah!! Cell 258 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 259 is Alive and Joined Cell Growth Queue
+Total Cell Present : 9
+A Cell Completes it's Division at 759 and Created Two New Cell 260 and 261
+Alas!! Cell 260 Has Been Died.
+Alas!! Cell 261 Has Been Died.
+Total Cell Present : 9
+A Cell Completes it's Division at 759 and Created Two New Cell 262 and 263
+Yeah!! Cell 262 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 263 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 759 and Created Two New Cell 264 and 265
+Yeah!! Cell 264 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 265 is Alive and Joined Cell Growth Queue
+Total Cell Present : 13
+A Cell Completes it's Division at 759 and Created Two New Cell 266 and 267
+Yeah!! Cell 266 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 267 is Alive and Joined Cell Growth Queue
+Total Cell Present : 15
+A Cell Completes it's Division at 759 and Created Two New Cell 268 and 269
+Alas!! Cell 268 Has Been Died.
+Yeah!! Cell 269 is Alive and Joined Cell Growth Queue
+Total Cell Present : 16
+A Cell Completes it's Division at 759 and Created Two New Cell 270 and 271
+Yeah!! Cell 270 is Alive and Joined Cell Growth Queue
+Alas!! Cell 271 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 759 and Created Two New Cell 272 and 273
+Yeah!! Cell 272 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 273 is Alive and Joined Cell Growth Queue
+Total Cell Present : 19
+A Cell Completes it's Division at 759 and Created Two New Cell 274 and 275
+Yeah!! Cell 274 is Alive and Joined Cell Growth Queue
+Alas!! Cell 275 Has Been Died.
+Total Cell Present : 20
+A Cell Completes it's Division at 759 and Created Two New Cell 276 and 277
+Alas!! Cell 276 Has Been Died.
+Yeah!! Cell 277 is Alive and Joined Cell Growth Queue
+Total Cell Present : 21
+A Cell Completes it's Division at 759 and Created Two New Cell 278 and 279
+Yeah!! Cell 278 is Alive and Joined Cell Growth Queue
+Alas!! Cell 279 Has Been Died.
+Total Cell Present : 22
+A Cell Completes it's Division at 759 and Created Two New Cell 280 and 281
+Yeah!! Cell 280 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 281 is Alive and Joined Cell Growth Queue
+Total Cell Present : 24
+A Cell Completes it's Division at 759 and Created Two New Cell 282 and 283
+Alas!! Cell 282 Has Been Died.
+Yeah!! Cell 283 is Alive and Joined Cell Growth Queue
+Total Cell Present : 25
+A Cell Completes it's Division at 759 and Created Two New Cell 284 and 285
+Yeah!! Cell 284 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 285 is Alive and Joined Cell Growth Queue
+Total Cell Present : 27
+A Cell Completes it's Division at 759 and Created Two New Cell 286 and 287
+Alas!! Cell 286 Has Been Died.
+Alas!! Cell 287 Has Been Died.
+Total Cell Present : 27
+A Cell Completes it's Division at 759 and Created Two New Cell 288 and 289
+Yeah!! Cell 288 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 289 is Alive and Joined Cell Growth Queue
+Total Cell Present : 29
+A Cell Completes it's Division at 759 and Created Two New Cell 290 and 291
+Alas!! Cell 290 Has Been Died.
+Yeah!! Cell 291 is Alive and Joined Cell Growth Queue
+Total Cell Present : 30
+A Cell Completes it's Division at 759 and Created Two New Cell 292 and 293
+Yeah!! Cell 292 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 293 is Alive and Joined Cell Growth Queue
+Total Cell Present : 32
+A Cell Completes it's Division at 759 and Created Two New Cell 294 and 295
+Yeah!! Cell 294 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 295 is Alive and Joined Cell Growth Queue
+Total Cell Present : 34
+A Cell Completes it's Division at 759 and Created Two New Cell 296 and 297
+Yeah!! Cell 296 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 297 is Alive and Joined Cell Growth Queue
+Total Cell Present : 36
+A Cell Completes it's Division at 759 and Created Two New Cell 298 and 299
+Alas!! Cell 298 Has Been Died.
+Alas!! Cell 299 Has Been Died.
+Total Cell Present : 36
+A Cell Completes it's Division at 759 and Created Two New Cell 300 and 301
+Yeah!! Cell 300 is Alive and Joined Cell Growth Queue
+Alas!! Cell 301 Has Been Died.
+Total Cell Present : 37
+A Cell Completes it's Division at 759 and Created Two New Cell 302 and 303
+Alas!! Cell 302 Has Been Died.
+Yeah!! Cell 303 is Alive and Joined Cell Growth Queue
+Total Cell Present : 38
+A Cell Completes it's Division at 759 and Created Two New Cell 304 and 305
+Yeah!! Cell 304 is Alive and Joined Cell Growth Queue
+Alas!! Cell 305 Has Been Died.
+Total Cell Present : 39
+A Cell Completes it's Division at 759 and Created Two New Cell 306 and 307
+Alas!! Cell 306 Has Been Died.
+Alas!! Cell 307 Has Been Died.
+Total Cell Present : 39
+A Cell Completes it's Division at 759 and Created Two New Cell 308 and 309
+Yeah!! Cell 308 is Alive and Joined Cell Growth Queue
+Alas!! Cell 309 Has Been Died.
+Total Cell Present : 40
+A Cell Completes it's Division at 759 and Created Two New Cell 310 and 311
+Yeah!! Cell 310 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 311 is Alive and Joined Cell Growth Queue
+Total Cell Present : 42
+A Cell Completes it's Division at 759 and Created Two New Cell 312 and 313
+Alas!! Cell 312 Has Been Died.
+Yeah!! Cell 313 is Alive and Joined Cell Growth Queue
+Total Cell Present : 43
+A Cell Completes it's Division at 759 and Created Two New Cell 314 and 315
+Yeah!! Cell 314 is Alive and Joined Cell Growth Queue
+Alas!! Cell 315 Has Been Died.
+Total Cell Present : 44
+Cell 248 has Started to Grow at 777
+Cell 248 Completes it's Growth at 777
+Cell 248 Joins Replication Server Queue at 777
+Cell 250 has Started to Grow at 777
+Cell 250 Completes it's Growth at 777
+Cell 250 Joins Replication Server Queue at 777
+Cell 251 has Started to Grow at 777
+Cell 251 Completes it's Growth at 777
+Cell 251 Joins Replication Server Queue at 777
+Cell 252 has Started to Grow at 777
+Cell 252 Completes it's Growth at 777
+Cell 252 Joins Replication Server Queue at 777
+Cell 253 has Started to Grow at 777
+Cell 253 Completes it's Growth at 777
+Cell 253 Joins Replication Server Queue at 777
+Cell 256 has Started to Grow at 777
+Cell 256 Completes it's Growth at 777
+Cell 256 Joins Replication Server Queue at 777
+Cell 257 has Started to Grow at 777
+Cell 257 Completes it's Growth at 777
+Cell 257 Joins Replication Server Queue at 777
+Cell 258 has Started to Grow at 777
+Cell 258 Completes it's Growth at 777
+Cell 258 Joins Replication Server Queue at 777
+Cell 259 has Started to Grow at 777
+Cell 259 Completes it's Growth at 777
+Cell 259 Joins Replication Server Queue at 777
+Cell 262 has Started to Grow at 777
+Cell 262 Completes it's Growth at 777
+Cell 262 Joins Replication Server Queue at 777
+Cell 263 has Started to Grow at 777
+Cell 263 Completes it's Growth at 777
+Cell 263 Joins Replication Server Queue at 777
+Cell 264 has Started to Grow at 777
+Cell 264 Completes it's Growth at 777
+Cell 264 Joins Replication Server Queue at 777
+Cell 265 has Started to Grow at 777
+Cell 265 Completes it's Growth at 777
+Cell 265 Joins Replication Server Queue at 777
+Cell 266 has Started to Grow at 777
+Cell 266 Completes it's Growth at 777
+Cell 266 Joins Replication Server Queue at 777
+Cell 267 has Started to Grow at 777
+Cell 267 Completes it's Growth at 777
+Cell 267 Joins Replication Server Queue at 777
+Cell 269 has Started to Grow at 777
+Cell 269 Completes it's Growth at 777
+Cell 269 Joins Replication Server Queue at 777
+Cell 270 has Started to Grow at 777
+Cell 270 Completes it's Growth at 777
+Cell 270 Joins Replication Server Queue at 777
+Cell 272 has Started to Grow at 777
+Cell 272 Completes it's Growth at 777
+Cell 272 Joins Replication Server Queue at 777
+Cell 273 has Started to Grow at 777
+Cell 273 Completes it's Growth at 777
+Cell 273 Joins Replication Server Queue at 777
+Cell 274 has Started to Grow at 777
+Cell 274 Completes it's Growth at 777
+Cell 274 Joins Replication Server Queue at 777
+Cell 277 has Started to Grow at 777
+Cell 277 Completes it's Growth at 777
+Cell 277 Joins Replication Server Queue at 777
+Cell 278 has Started to Grow at 777
+Cell 278 Completes it's Growth at 777
+Cell 278 Joins Replication Server Queue at 777
+Cell 280 has Started to Grow at 777
+Cell 280 Completes it's Growth at 777
+Cell 280 Joins Replication Server Queue at 777
+Cell 281 has Started to Grow at 777
+Cell 281 Completes it's Growth at 777
+Cell 281 Joins Replication Server Queue at 777
+Cell 283 has Started to Grow at 777
+Cell 283 Completes it's Growth at 777
+Cell 283 Joins Replication Server Queue at 777
+Cell 284 has Started to Grow at 777
+Cell 284 Completes it's Growth at 777
+Cell 284 Joins Replication Server Queue at 777
+Cell 285 has Started to Grow at 777
+Cell 285 Completes it's Growth at 777
+Cell 285 Joins Replication Server Queue at 777
+Cell 288 has Started to Grow at 777
+Cell 288 Completes it's Growth at 777
+Cell 288 Joins Replication Server Queue at 777
+Cell 289 has Started to Grow at 777
+Cell 289 Completes it's Growth at 777
+Cell 289 Joins Replication Server Queue at 777
+Cell 291 has Started to Grow at 777
+Cell 291 Completes it's Growth at 777
+Cell 291 Joins Replication Server Queue at 777
+Cell 292 has Started to Grow at 777
+Cell 292 Completes it's Growth at 777
+Cell 292 Joins Replication Server Queue at 777
+Cell 293 has Started to Grow at 777
+Cell 293 Completes it's Growth at 777
+Cell 293 Joins Replication Server Queue at 777
+Cell 294 has Started to Grow at 777
+Cell 294 Completes it's Growth at 777
+Cell 294 Joins Replication Server Queue at 777
+Cell 295 has Started to Grow at 777
+Cell 295 Completes it's Growth at 777
+Cell 295 Joins Replication Server Queue at 777
+Cell 296 has Started to Grow at 777
+Cell 296 Completes it's Growth at 777
+Cell 296 Joins Replication Server Queue at 777
+Cell 297 has Started to Grow at 777
+Cell 297 Completes it's Growth at 777
+Cell 297 Joins Replication Server Queue at 777
+Cell 300 has Started to Grow at 777
+Cell 300 Completes it's Growth at 777
+Cell 300 Joins Replication Server Queue at 777
+Cell 303 has Started to Grow at 777
+Cell 303 Completes it's Growth at 777
+Cell 303 Joins Replication Server Queue at 777
+Cell 304 has Started to Grow at 777
+Cell 304 Completes it's Growth at 777
+Cell 304 Joins Replication Server Queue at 777
+Cell 308 has Started to Grow at 777
+Cell 308 Completes it's Growth at 777
+Cell 308 Joins Replication Server Queue at 777
+Cell 310 has Started to Grow at 777
+Cell 310 Completes it's Growth at 777
+Cell 310 Joins Replication Server Queue at 777
+Cell 311 has Started to Grow at 777
+Cell 311 Completes it's Growth at 777
+Cell 311 Joins Replication Server Queue at 777
+Cell 313 has Started to Grow at 777
+Cell 313 Completes it's Growth at 777
+Cell 313 Joins Replication Server Queue at 777
+Cell 314 has Started to Grow at 777
+Cell 314 Completes it's Growth at 777
+Cell 314 Joins Replication Server Queue at 777
+A Cell Completes it's Division at 839 and Created Two New Cell 316 and 317
+Yeah!! Cell 316 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 317 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 839 and Created Two New Cell 318 and 319
+Alas!! Cell 318 Has Been Died.
+Yeah!! Cell 319 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 839 and Created Two New Cell 320 and 321
+Yeah!! Cell 320 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 321 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 839 and Created Two New Cell 322 and 323
+Yeah!! Cell 322 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 323 is Alive and Joined Cell Growth Queue
+Total Cell Present : 7
+A Cell Completes it's Division at 839 and Created Two New Cell 324 and 325
+Yeah!! Cell 324 is Alive and Joined Cell Growth Queue
+Alas!! Cell 325 Has Been Died.
+Total Cell Present : 8
+A Cell Completes it's Division at 839 and Created Two New Cell 326 and 327
+Alas!! Cell 326 Has Been Died.
+Yeah!! Cell 327 is Alive and Joined Cell Growth Queue
+Total Cell Present : 9
+A Cell Completes it's Division at 839 and Created Two New Cell 328 and 329
+Yeah!! Cell 328 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 329 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 839 and Created Two New Cell 330 and 331
+Alas!! Cell 330 Has Been Died.
+Yeah!! Cell 331 is Alive and Joined Cell Growth Queue
+Total Cell Present : 12
+A Cell Completes it's Division at 839 and Created Two New Cell 332 and 333
+Yeah!! Cell 332 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 333 is Alive and Joined Cell Growth Queue
+Total Cell Present : 14
+A Cell Completes it's Division at 839 and Created Two New Cell 334 and 335
+Yeah!! Cell 334 is Alive and Joined Cell Growth Queue
+Alas!! Cell 335 Has Been Died.
+Total Cell Present : 15
+A Cell Completes it's Division at 839 and Created Two New Cell 336 and 337
+Alas!! Cell 336 Has Been Died.
+Yeah!! Cell 337 is Alive and Joined Cell Growth Queue
+Total Cell Present : 16
+A Cell Completes it's Division at 839 and Created Two New Cell 338 and 339
+Yeah!! Cell 338 is Alive and Joined Cell Growth Queue
+Alas!! Cell 339 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 839 and Created Two New Cell 340 and 341
+Alas!! Cell 340 Has Been Died.
+Alas!! Cell 341 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 839 and Created Two New Cell 342 and 343
+Yeah!! Cell 342 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 343 is Alive and Joined Cell Growth Queue
+Total Cell Present : 19
+A Cell Completes it's Division at 839 and Created Two New Cell 344 and 345
+Alas!! Cell 344 Has Been Died.
+Alas!! Cell 345 Has Been Died.
+Total Cell Present : 19
+A Cell Completes it's Division at 839 and Created Two New Cell 346 and 347
+Alas!! Cell 346 Has Been Died.
+Yeah!! Cell 347 is Alive and Joined Cell Growth Queue
+Total Cell Present : 20
+A Cell Completes it's Division at 839 and Created Two New Cell 348 and 349
+Alas!! Cell 348 Has Been Died.
+Yeah!! Cell 349 is Alive and Joined Cell Growth Queue
+Total Cell Present : 21
+A Cell Completes it's Division at 839 and Created Two New Cell 350 and 351
+Yeah!! Cell 350 is Alive and Joined Cell Growth Queue
+Alas!! Cell 351 Has Been Died.
+Total Cell Present : 22
+A Cell Completes it's Division at 839 and Created Two New Cell 352 and 353
+Yeah!! Cell 352 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 353 is Alive and Joined Cell Growth Queue
+Total Cell Present : 24
+A Cell Completes it's Division at 839 and Created Two New Cell 354 and 355
+Yeah!! Cell 354 is Alive and Joined Cell Growth Queue
+Alas!! Cell 355 Has Been Died.
+Total Cell Present : 25
+A Cell Completes it's Division at 839 and Created Two New Cell 356 and 357
+Yeah!! Cell 356 is Alive and Joined Cell Growth Queue
+Alas!! Cell 357 Has Been Died.
+Total Cell Present : 26
+A Cell Completes it's Division at 839 and Created Two New Cell 358 and 359
+Yeah!! Cell 358 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 359 is Alive and Joined Cell Growth Queue
+Total Cell Present : 28
+A Cell Completes it's Division at 839 and Created Two New Cell 360 and 361
+Alas!! Cell 360 Has Been Died.
+Alas!! Cell 361 Has Been Died.
+Total Cell Present : 28
+A Cell Completes it's Division at 839 and Created Two New Cell 362 and 363
+Yeah!! Cell 362 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 363 is Alive and Joined Cell Growth Queue
+Total Cell Present : 30
+A Cell Completes it's Division at 839 and Created Two New Cell 364 and 365
+Alas!! Cell 364 Has Been Died.
+Alas!! Cell 365 Has Been Died.
+Total Cell Present : 30
+A Cell Completes it's Division at 839 and Created Two New Cell 366 and 367
+Alas!! Cell 366 Has Been Died.
+Yeah!! Cell 367 is Alive and Joined Cell Growth Queue
+Total Cell Present : 31
+A Cell Completes it's Division at 839 and Created Two New Cell 368 and 369
+Alas!! Cell 368 Has Been Died.
+Yeah!! Cell 369 is Alive and Joined Cell Growth Queue
+Total Cell Present : 32
+A Cell Completes it's Division at 839 and Created Two New Cell 370 and 371
+Yeah!! Cell 370 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 371 is Alive and Joined Cell Growth Queue
+Total Cell Present : 34
+A Cell Completes it's Division at 839 and Created Two New Cell 372 and 373
+Yeah!! Cell 372 is Alive and Joined Cell Growth Queue
+Alas!! Cell 373 Has Been Died.
+Total Cell Present : 35
+A Cell Completes it's Division at 839 and Created Two New Cell 374 and 375
+Alas!! Cell 374 Has Been Died.
+Yeah!! Cell 375 is Alive and Joined Cell Growth Queue
+Total Cell Present : 36
+A Cell Completes it's Division at 839 and Created Two New Cell 376 and 377
+Yeah!! Cell 376 is Alive and Joined Cell Growth Queue
+Alas!! Cell 377 Has Been Died.
+Total Cell Present : 37
+A Cell Completes it's Division at 839 and Created Two New Cell 378 and 379
+Yeah!! Cell 378 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 379 is Alive and Joined Cell Growth Queue
+Total Cell Present : 39
+A Cell Completes it's Division at 839 and Created Two New Cell 380 and 381
+Yeah!! Cell 380 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 381 is Alive and Joined Cell Growth Queue
+Total Cell Present : 41
+A Cell Completes it's Division at 839 and Created Two New Cell 382 and 383
+Yeah!! Cell 382 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 383 is Alive and Joined Cell Growth Queue
+Total Cell Present : 43
+A Cell Completes it's Division at 839 and Created Two New Cell 384 and 385
+Yeah!! Cell 384 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 385 is Alive and Joined Cell Growth Queue
+Total Cell Present : 45
+A Cell Completes it's Division at 839 and Created Two New Cell 386 and 387
+Alas!! Cell 386 Has Been Died.
+Yeah!! Cell 387 is Alive and Joined Cell Growth Queue
+Total Cell Present : 46
+A Cell Completes it's Division at 839 and Created Two New Cell 388 and 389
+Yeah!! Cell 388 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 389 is Alive and Joined Cell Growth Queue
+Total Cell Present : 48
+A Cell Completes it's Division at 839 and Created Two New Cell 390 and 391
+Alas!! Cell 390 Has Been Died.
+Yeah!! Cell 391 is Alive and Joined Cell Growth Queue
+Total Cell Present : 49
+A Cell Completes it's Division at 839 and Created Two New Cell 392 and 393
+Yeah!! Cell 392 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 393 is Alive and Joined Cell Growth Queue
+Total Cell Present : 51
+A Cell Completes it's Division at 839 and Created Two New Cell 394 and 395
+Alas!! Cell 394 Has Been Died.
+Yeah!! Cell 395 is Alive and Joined Cell Growth Queue
+Total Cell Present : 52
+A Cell Completes it's Division at 839 and Created Two New Cell 396 and 397
+Alas!! Cell 396 Has Been Died.
+Yeah!! Cell 397 is Alive and Joined Cell Growth Queue
+Total Cell Present : 53
+A Cell Completes it's Division at 839 and Created Two New Cell 398 and 399
+Alas!! Cell 398 Has Been Died.
+Yeah!! Cell 399 is Alive and Joined Cell Growth Queue
+Total Cell Present : 54
+A Cell Completes it's Division at 839 and Created Two New Cell 400 and 401
+Yeah!! Cell 400 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 401 is Alive and Joined Cell Growth Queue
+Total Cell Present : 56
+A Cell Completes it's Division at 839 and Created Two New Cell 402 and 403
+Yeah!! Cell 402 is Alive and Joined Cell Growth Queue
+Alas!! Cell 403 Has Been Died.
+Total Cell Present : 57
+Cell 316 has Started to Grow at 860
+Cell 316 Completes it's Growth at 860
+Cell 316 Joins Replication Server Queue at 860
+Cell 317 has Started to Grow at 860
+Cell 317 Completes it's Growth at 860
+Cell 317 Joins Replication Server Queue at 860
+Cell 319 has Started to Grow at 860
+Cell 319 Completes it's Growth at 860
+Cell 319 Joins Replication Server Queue at 860
+Cell 320 has Started to Grow at 860
+Cell 320 Completes it's Growth at 860
+Cell 320 Joins Replication Server Queue at 860
+Cell 321 has Started to Grow at 860
+Cell 321 Completes it's Growth at 860
+Cell 321 Joins Replication Server Queue at 860
+Cell 322 has Started to Grow at 860
+Cell 322 Completes it's Growth at 860
+Cell 322 Joins Replication Server Queue at 860
+Cell 323 has Started to Grow at 860
+Cell 323 Completes it's Growth at 860
+Cell 323 Joins Replication Server Queue at 860
+Cell 324 has Started to Grow at 860
+Cell 324 Completes it's Growth at 860
+Cell 324 Joins Replication Server Queue at 860
+Cell 327 has Started to Grow at 860
+Cell 327 Completes it's Growth at 860
+Cell 327 Joins Replication Server Queue at 860
+Cell 328 has Started to Grow at 860
+Cell 328 Completes it's Growth at 860
+Cell 328 Joins Replication Server Queue at 860
+Cell 329 has Started to Grow at 860
+Cell 329 Completes it's Growth at 860
+Cell 329 Joins Replication Server Queue at 860
+Cell 331 has Started to Grow at 860
+Cell 331 Completes it's Growth at 860
+Cell 331 Joins Replication Server Queue at 860
+Cell 332 has Started to Grow at 860
+Cell 332 Completes it's Growth at 860
+Cell 332 Joins Replication Server Queue at 860
+Cell 333 has Started to Grow at 860
+Cell 333 Completes it's Growth at 860
+Cell 333 Joins Replication Server Queue at 860
+Cell 334 has Started to Grow at 860
+Cell 334 Completes it's Growth at 860
+Cell 334 Joins Replication Server Queue at 860
+Cell 337 has Started to Grow at 860
+Cell 337 Completes it's Growth at 860
+Cell 337 Joins Replication Server Queue at 860
+Cell 338 has Started to Grow at 860
+Cell 338 Completes it's Growth at 860
+Cell 338 Joins Replication Server Queue at 860
+Cell 342 has Started to Grow at 860
+Cell 342 Completes it's Growth at 860
+Cell 342 Joins Replication Server Queue at 860
+Cell 343 has Started to Grow at 860
+Cell 343 Completes it's Growth at 860
+Cell 343 Joins Replication Server Queue at 860
+Cell 347 has Started to Grow at 860
+Cell 347 Completes it's Growth at 860
+Cell 347 Joins Replication Server Queue at 860
+Cell 349 has Started to Grow at 860
+Cell 349 Completes it's Growth at 860
+Cell 349 Joins Replication Server Queue at 860
+Cell 350 has Started to Grow at 860
+Cell 350 Completes it's Growth at 860
+Cell 350 Joins Replication Server Queue at 860
+Cell 352 has Started to Grow at 860
+Cell 352 Completes it's Growth at 860
+Cell 352 Joins Replication Server Queue at 860
+Cell 353 has Started to Grow at 860
+Cell 353 Completes it's Growth at 860
+Cell 353 Joins Replication Server Queue at 860
+Cell 354 has Started to Grow at 860
+Cell 354 Completes it's Growth at 860
+Cell 354 Joins Replication Server Queue at 860
+Cell 356 has Started to Grow at 860
+Cell 356 Completes it's Growth at 860
+Cell 356 Joins Replication Server Queue at 860
+Cell 358 has Started to Grow at 860
+Cell 358 Completes it's Growth at 860
+Cell 358 Joins Replication Server Queue at 860
+Cell 359 has Started to Grow at 860
+Cell 359 Completes it's Growth at 860
+Cell 359 Joins Replication Server Queue at 860
+Cell 362 has Started to Grow at 860
+Cell 362 Completes it's Growth at 860
+Cell 362 Joins Replication Server Queue at 860
+Cell 363 has Started to Grow at 860
+Cell 363 Completes it's Growth at 860
+Cell 363 Joins Replication Server Queue at 860
+Cell 367 has Started to Grow at 860
+Cell 367 Completes it's Growth at 860
+Cell 367 Joins Replication Server Queue at 860
+Cell 369 has Started to Grow at 860
+Cell 369 Completes it's Growth at 860
+Cell 369 Joins Replication Server Queue at 860
+Cell 370 has Started to Grow at 860
+Cell 370 Completes it's Growth at 860
+Cell 370 Joins Replication Server Queue at 860
+Cell 371 has Started to Grow at 860
+Cell 371 Completes it's Growth at 860
+Cell 371 Joins Replication Server Queue at 860
+Cell 372 has Started to Grow at 860
+Cell 372 Completes it's Growth at 860
+Cell 372 Joins Replication Server Queue at 860
+Cell 375 has Started to Grow at 860
+Cell 375 Completes it's Growth at 860
+Cell 375 Joins Replication Server Queue at 860
+Cell 376 has Started to Grow at 860
+Cell 376 Completes it's Growth at 860
+Cell 376 Joins Replication Server Queue at 860
+Cell 378 has Started to Grow at 860
+Cell 378 Completes it's Growth at 860
+Cell 378 Joins Replication Server Queue at 860
+Cell 379 has Started to Grow at 860
+Cell 379 Completes it's Growth at 860
+Cell 379 Joins Replication Server Queue at 860
+Cell 380 has Started to Grow at 860
+Cell 380 Completes it's Growth at 860
+Cell 380 Joins Replication Server Queue at 860
+Cell 381 has Started to Grow at 860
+Cell 381 Completes it's Growth at 860
+Cell 381 Joins Replication Server Queue at 860
+Cell 382 has Started to Grow at 860
+Cell 382 Completes it's Growth at 860
+Cell 382 Joins Replication Server Queue at 860
+Cell 383 has Started to Grow at 860
+Cell 383 Completes it's Growth at 860
+Cell 383 Joins Replication Server Queue at 860
+Cell 384 has Started to Grow at 860
+Cell 384 Completes it's Growth at 860
+Cell 384 Joins Replication Server Queue at 860
+Cell 385 has Started to Grow at 860
+Cell 385 Completes it's Growth at 860
+Cell 385 Joins Replication Server Queue at 860
+Cell 387 has Started to Grow at 860
+Cell 387 Completes it's Growth at 860
+Cell 387 Joins Replication Server Queue at 860
+Cell 388 has Started to Grow at 860
+Cell 388 Completes it's Growth at 860
+Cell 388 Joins Replication Server Queue at 860
+Cell 389 has Started to Grow at 860
+Cell 389 Completes it's Growth at 860
+Cell 389 Joins Replication Server Queue at 860
+Cell 391 has Started to Grow at 860
+Cell 391 Completes it's Growth at 860
+Cell 391 Joins Replication Server Queue at 860
+Cell 392 has Started to Grow at 860
+Cell 392 Completes it's Growth at 860
+Cell 392 Joins Replication Server Queue at 860
+Cell 393 has Started to Grow at 860
+Cell 393 Completes it's Growth at 860
+Cell 393 Joins Replication Server Queue at 860
+Cell 395 has Started to Grow at 860
+Cell 395 Completes it's Growth at 860
+Cell 395 Joins Replication Server Queue at 860
+Cell 397 has Started to Grow at 860
+Cell 397 Completes it's Growth at 860
+Cell 397 Joins Replication Server Queue at 860
+Cell 399 has Started to Grow at 860
+Cell 399 Completes it's Growth at 860
+Cell 399 Joins Replication Server Queue at 860
+Cell 400 has Started to Grow at 860
+Cell 400 Completes it's Growth at 860
+Cell 400 Joins Replication Server Queue at 860
+Cell 401 has Started to Grow at 860
+Cell 401 Completes it's Growth at 860
+Cell 401 Joins Replication Server Queue at 860
+Cell 402 has Started to Grow at 860
+Cell 402 Completes it's Growth at 860
+Cell 402 Joins Replication Server Queue at 860
+A Cell Completes it's Division at 925 and Created Two New Cell 404 and 405
+Yeah!! Cell 404 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 405 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 925 and Created Two New Cell 406 and 407
+Alas!! Cell 406 Has Been Died.
+Yeah!! Cell 407 is Alive and Joined Cell Growth Queue
+Total Cell Present : 3
+A Cell Completes it's Division at 925 and Created Two New Cell 408 and 409
+Alas!! Cell 408 Has Been Died.
+Yeah!! Cell 409 is Alive and Joined Cell Growth Queue
+Total Cell Present : 4
+A Cell Completes it's Division at 925 and Created Two New Cell 410 and 411
+Yeah!! Cell 410 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 411 is Alive and Joined Cell Growth Queue
+Total Cell Present : 6
+A Cell Completes it's Division at 925 and Created Two New Cell 412 and 413
+Yeah!! Cell 412 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 413 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+A Cell Completes it's Division at 925 and Created Two New Cell 414 and 415
+Yeah!! Cell 414 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 415 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 925 and Created Two New Cell 416 and 417
+Alas!! Cell 416 Has Been Died.
+Yeah!! Cell 417 is Alive and Joined Cell Growth Queue
+Total Cell Present : 11
+A Cell Completes it's Division at 925 and Created Two New Cell 418 and 419
+Alas!! Cell 418 Has Been Died.
+Alas!! Cell 419 Has Been Died.
+Total Cell Present : 11
+A Cell Completes it's Division at 925 and Created Two New Cell 420 and 421
+Yeah!! Cell 420 is Alive and Joined Cell Growth Queue
+Alas!! Cell 421 Has Been Died.
+Total Cell Present : 12
+A Cell Completes it's Division at 925 and Created Two New Cell 422 and 423
+Yeah!! Cell 422 is Alive and Joined Cell Growth Queue
+Alas!! Cell 423 Has Been Died.
+Total Cell Present : 13
+A Cell Completes it's Division at 925 and Created Two New Cell 424 and 425
+Yeah!! Cell 424 is Alive and Joined Cell Growth Queue
+Alas!! Cell 425 Has Been Died.
+Total Cell Present : 14
+A Cell Completes it's Division at 925 and Created Two New Cell 426 and 427
+Yeah!! Cell 426 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 427 is Alive and Joined Cell Growth Queue
+Total Cell Present : 16
+A Cell Completes it's Division at 925 and Created Two New Cell 428 and 429
+Yeah!! Cell 428 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 429 is Alive and Joined Cell Growth Queue
+Total Cell Present : 18
+A Cell Completes it's Division at 925 and Created Two New Cell 430 and 431
+Yeah!! Cell 430 is Alive and Joined Cell Growth Queue
+Alas!! Cell 431 Has Been Died.
+Total Cell Present : 19
+A Cell Completes it's Division at 925 and Created Two New Cell 432 and 433
+Yeah!! Cell 432 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 433 is Alive and Joined Cell Growth Queue
+Total Cell Present : 21
+A Cell Completes it's Division at 925 and Created Two New Cell 434 and 435
+Yeah!! Cell 434 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 435 is Alive and Joined Cell Growth Queue
+Total Cell Present : 23
+A Cell Completes it's Division at 925 and Created Two New Cell 436 and 437
+Yeah!! Cell 436 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 437 is Alive and Joined Cell Growth Queue
+Total Cell Present : 25
+A Cell Completes it's Division at 925 and Created Two New Cell 438 and 439
+Yeah!! Cell 438 is Alive and Joined Cell Growth Queue
+Alas!! Cell 439 Has Been Died.
+Total Cell Present : 26
+A Cell Completes it's Division at 925 and Created Two New Cell 440 and 441
+Yeah!! Cell 440 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 441 is Alive and Joined Cell Growth Queue
+Total Cell Present : 28
+A Cell Completes it's Division at 925 and Created Two New Cell 442 and 443
+Yeah!! Cell 442 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 443 is Alive and Joined Cell Growth Queue
+Total Cell Present : 30
+A Cell Completes it's Division at 925 and Created Two New Cell 444 and 445
+Alas!! Cell 444 Has Been Died.
+Alas!! Cell 445 Has Been Died.
+Total Cell Present : 30
+A Cell Completes it's Division at 925 and Created Two New Cell 446 and 447
+Yeah!! Cell 446 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 447 is Alive and Joined Cell Growth Queue
+Total Cell Present : 32
+A Cell Completes it's Division at 925 and Created Two New Cell 448 and 449
+Alas!! Cell 448 Has Been Died.
+Alas!! Cell 449 Has Been Died.
+Total Cell Present : 32
+A Cell Completes it's Division at 925 and Created Two New Cell 450 and 451
+Yeah!! Cell 450 is Alive and Joined Cell Growth Queue
+Alas!! Cell 451 Has Been Died.
+Total Cell Present : 33
+A Cell Completes it's Division at 925 and Created Two New Cell 452 and 453
+Yeah!! Cell 452 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 453 is Alive and Joined Cell Growth Queue
+Total Cell Present : 35
+A Cell Completes it's Division at 925 and Created Two New Cell 454 and 455
+Alas!! Cell 454 Has Been Died.
+Alas!! Cell 455 Has Been Died.
+Total Cell Present : 35
+A Cell Completes it's Division at 925 and Created Two New Cell 456 and 457
+Yeah!! Cell 456 is Alive and Joined Cell Growth Queue
+Alas!! Cell 457 Has Been Died.
+Total Cell Present : 36
+A Cell Completes it's Division at 925 and Created Two New Cell 458 and 459
+Yeah!! Cell 458 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 459 is Alive and Joined Cell Growth Queue
+Total Cell Present : 38
+A Cell Completes it's Division at 925 and Created Two New Cell 460 and 461
+Yeah!! Cell 460 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 461 is Alive and Joined Cell Growth Queue
+Total Cell Present : 40
+A Cell Completes it's Division at 925 and Created Two New Cell 462 and 463
+Alas!! Cell 462 Has Been Died.
+Yeah!! Cell 463 is Alive and Joined Cell Growth Queue
+Total Cell Present : 41
+A Cell Completes it's Division at 925 and Created Two New Cell 464 and 465
+Alas!! Cell 464 Has Been Died.
+Alas!! Cell 465 Has Been Died.
+Total Cell Present : 41
+A Cell Completes it's Division at 925 and Created Two New Cell 466 and 467
+Alas!! Cell 466 Has Been Died.
+Alas!! Cell 467 Has Been Died.
+Total Cell Present : 41
+A Cell Completes it's Division at 925 and Created Two New Cell 468 and 469
+Yeah!! Cell 468 is Alive and Joined Cell Growth Queue
+Alas!! Cell 469 Has Been Died.
+Total Cell Present : 42
+A Cell Completes it's Division at 925 and Created Two New Cell 470 and 471
+Alas!! Cell 470 Has Been Died.
+Yeah!! Cell 471 is Alive and Joined Cell Growth Queue
+Total Cell Present : 43
+A Cell Completes it's Division at 925 and Created Two New Cell 472 and 473
+Yeah!! Cell 472 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 473 is Alive and Joined Cell Growth Queue
+Total Cell Present : 45
+A Cell Completes it's Division at 925 and Created Two New Cell 474 and 475
+Yeah!! Cell 474 is Alive and Joined Cell Growth Queue
+Alas!! Cell 475 Has Been Died.
+Total Cell Present : 46
+A Cell Completes it's Division at 925 and Created Two New Cell 476 and 477
+Yeah!! Cell 476 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 477 is Alive and Joined Cell Growth Queue
+Total Cell Present : 48
+A Cell Completes it's Division at 925 and Created Two New Cell 478 and 479
+Yeah!! Cell 478 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 479 is Alive and Joined Cell Growth Queue
+Total Cell Present : 50
+A Cell Completes it's Division at 925 and Created Two New Cell 480 and 481
+Yeah!! Cell 480 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 481 is Alive and Joined Cell Growth Queue
+Total Cell Present : 52
+A Cell Completes it's Division at 925 and Created Two New Cell 482 and 483
+Yeah!! Cell 482 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 483 is Alive and Joined Cell Growth Queue
+Total Cell Present : 54
+A Cell Completes it's Division at 925 and Created Two New Cell 484 and 485
+Alas!! Cell 484 Has Been Died.
+Alas!! Cell 485 Has Been Died.
+Total Cell Present : 54
+A Cell Completes it's Division at 925 and Created Two New Cell 486 and 487
+Alas!! Cell 486 Has Been Died.
+Yeah!! Cell 487 is Alive and Joined Cell Growth Queue
+Total Cell Present : 55
+A Cell Completes it's Division at 925 and Created Two New Cell 488 and 489
+Yeah!! Cell 488 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 489 is Alive and Joined Cell Growth Queue
+Total Cell Present : 57
+A Cell Completes it's Division at 925 and Created Two New Cell 490 and 491
+Yeah!! Cell 490 is Alive and Joined Cell Growth Queue
+Alas!! Cell 491 Has Been Died.
+Total Cell Present : 58
+A Cell Completes it's Division at 925 and Created Two New Cell 492 and 493
+Yeah!! Cell 492 is Alive and Joined Cell Growth Queue
+Alas!! Cell 493 Has Been Died.
+Total Cell Present : 59
+A Cell Completes it's Division at 925 and Created Two New Cell 494 and 495
+Alas!! Cell 494 Has Been Died.
+Yeah!! Cell 495 is Alive and Joined Cell Growth Queue
+Total Cell Present : 60
+A Cell Completes it's Division at 925 and Created Two New Cell 496 and 497
+Alas!! Cell 496 Has Been Died.
+Alas!! Cell 497 Has Been Died.
+Total Cell Present : 60
+A Cell Completes it's Division at 925 and Created Two New Cell 498 and 499
+Yeah!! Cell 498 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 499 is Alive and Joined Cell Growth Queue
+Total Cell Present : 62
+A Cell Completes it's Division at 925 and Created Two New Cell 500 and 501
+Yeah!! Cell 500 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 501 is Alive and Joined Cell Growth Queue
+Total Cell Present : 64
+A Cell Completes it's Division at 925 and Created Two New Cell 502 and 503
+Alas!! Cell 502 Has Been Died.
+Yeah!! Cell 503 is Alive and Joined Cell Growth Queue
+Total Cell Present : 65
+A Cell Completes it's Division at 925 and Created Two New Cell 504 and 505
+Yeah!! Cell 504 is Alive and Joined Cell Growth Queue
+Alas!! Cell 505 Has Been Died.
+Total Cell Present : 66
+A Cell Completes it's Division at 925 and Created Two New Cell 506 and 507
+Yeah!! Cell 506 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 507 is Alive and Joined Cell Growth Queue
+Total Cell Present : 68
+A Cell Completes it's Division at 925 and Created Two New Cell 508 and 509
+Alas!! Cell 508 Has Been Died.
+Yeah!! Cell 509 is Alive and Joined Cell Growth Queue
+Total Cell Present : 69
+A Cell Completes it's Division at 925 and Created Two New Cell 510 and 511
+Yeah!! Cell 510 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 511 is Alive and Joined Cell Growth Queue
+Total Cell Present : 71
+A Cell Completes it's Division at 925 and Created Two New Cell 512 and 513
+Yeah!! Cell 512 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 513 is Alive and Joined Cell Growth Queue
+Total Cell Present : 73
+A Cell Completes it's Division at 925 and Created Two New Cell 514 and 515
+Alas!! Cell 514 Has Been Died.
+Yeah!! Cell 515 is Alive and Joined Cell Growth Queue
+Total Cell Present : 74
+A Cell Completes it's Division at 925 and Created Two New Cell 516 and 517
+Yeah!! Cell 516 is Alive and Joined Cell Growth Queue
+Alas!! Cell 517 Has Been Died.
+Total Cell Present : 75
+Cell 404 has Started to Grow at 952
+Cell 404 Completes it's Growth at 952
+Cell 404 Joins Replication Server Queue at 952
+Cell 405 has Started to Grow at 952
+Cell 405 Completes it's Growth at 952
+Cell 405 Joins Replication Server Queue at 952
+Cell 407 has Started to Grow at 952
+Cell 407 Completes it's Growth at 952
+Cell 407 Joins Replication Server Queue at 952
+Cell 409 has Started to Grow at 952
+Cell 409 Completes it's Growth at 952
+Cell 409 Joins Replication Server Queue at 952
+Cell 410 has Started to Grow at 952
+Cell 410 Completes it's Growth at 952
+Cell 410 Joins Replication Server Queue at 952
+Cell 411 has Started to Grow at 952
+Cell 411 Completes it's Growth at 952
+Cell 411 Joins Replication Server Queue at 952
+Cell 412 has Started to Grow at 952
+Cell 412 Completes it's Growth at 952
+Cell 412 Joins Replication Server Queue at 952
+Cell 413 has Started to Grow at 952
+Cell 413 Completes it's Growth at 952
+Cell 413 Joins Replication Server Queue at 952
+Cell 414 has Started to Grow at 952
+Cell 414 Completes it's Growth at 952
+Cell 414 Joins Replication Server Queue at 952
+Cell 415 has Started to Grow at 952
+Cell 415 Completes it's Growth at 952
+Cell 415 Joins Replication Server Queue at 952
+Cell 417 has Started to Grow at 952
+Cell 417 Completes it's Growth at 952
+Cell 417 Joins Replication Server Queue at 952
+Cell 420 has Started to Grow at 952
+Cell 420 Completes it's Growth at 952
+Cell 420 Joins Replication Server Queue at 952
+Cell 422 has Started to Grow at 952
+Cell 422 Completes it's Growth at 952
+Cell 422 Joins Replication Server Queue at 952
+Cell 424 has Started to Grow at 952
+Cell 424 Completes it's Growth at 952
+Cell 424 Joins Replication Server Queue at 952
+Cell 426 has Started to Grow at 952
+Cell 426 Completes it's Growth at 952
+Cell 426 Joins Replication Server Queue at 952
+Cell 427 has Started to Grow at 952
+Cell 427 Completes it's Growth at 952
+Cell 427 Joins Replication Server Queue at 952
+Cell 428 has Started to Grow at 952
+Cell 428 Completes it's Growth at 952
+Cell 428 Joins Replication Server Queue at 952
+Cell 429 has Started to Grow at 952
+Cell 429 Completes it's Growth at 952
+Cell 429 Joins Replication Server Queue at 952
+Cell 430 has Started to Grow at 952
+Cell 430 Completes it's Growth at 952
+Cell 430 Joins Replication Server Queue at 952
+Cell 432 has Started to Grow at 952
+Cell 432 Completes it's Growth at 952
+Cell 432 Joins Replication Server Queue at 952
+Cell 433 has Started to Grow at 952
+Cell 433 Completes it's Growth at 952
+Cell 433 Joins Replication Server Queue at 952
+Cell 434 has Started to Grow at 952
+Cell 434 Completes it's Growth at 952
+Cell 434 Joins Replication Server Queue at 952
+Cell 435 has Started to Grow at 952
+Cell 435 Completes it's Growth at 952
+Cell 435 Joins Replication Server Queue at 952
+Cell 436 has Started to Grow at 952
+Cell 436 Completes it's Growth at 952
+Cell 436 Joins Replication Server Queue at 952
+Cell 437 has Started to Grow at 952
+Cell 437 Completes it's Growth at 952
+Cell 437 Joins Replication Server Queue at 952
+Cell 438 has Started to Grow at 952
+Cell 438 Completes it's Growth at 952
+Cell 438 Joins Replication Server Queue at 952
+Cell 440 has Started to Grow at 952
+Cell 440 Completes it's Growth at 952
+Cell 440 Joins Replication Server Queue at 952
+Cell 441 has Started to Grow at 952
+Cell 441 Completes it's Growth at 952
+Cell 441 Joins Replication Server Queue at 952
+Cell 442 has Started to Grow at 952
+Cell 442 Completes it's Growth at 952
+Cell 442 Joins Replication Server Queue at 952
+Cell 443 has Started to Grow at 952
+Cell 443 Completes it's Growth at 952
+Cell 443 Joins Replication Server Queue at 952
+Cell 446 has Started to Grow at 952
+Cell 446 Completes it's Growth at 952
+Cell 446 Joins Replication Server Queue at 952
+Cell 447 has Started to Grow at 952
+Cell 447 Completes it's Growth at 952
+Cell 447 Joins Replication Server Queue at 952
+Cell 450 has Started to Grow at 952
+Cell 450 Completes it's Growth at 952
+Cell 450 Joins Replication Server Queue at 952
+Cell 452 has Started to Grow at 952
+Cell 452 Completes it's Growth at 952
+Cell 452 Joins Replication Server Queue at 952
+Cell 453 has Started to Grow at 952
+Cell 453 Completes it's Growth at 952
+Cell 453 Joins Replication Server Queue at 952
+Cell 456 has Started to Grow at 952
+Cell 456 Completes it's Growth at 952
+Cell 456 Joins Replication Server Queue at 952
+Cell 458 has Started to Grow at 952
+Cell 458 Completes it's Growth at 952
+Cell 458 Joins Replication Server Queue at 952
+Cell 459 has Started to Grow at 952
+Cell 459 Completes it's Growth at 952
+Cell 459 Joins Replication Server Queue at 952
+Cell 460 has Started to Grow at 952
+Cell 460 Completes it's Growth at 952
+Cell 460 Joins Replication Server Queue at 952
+Cell 461 has Started to Grow at 952
+Cell 461 Completes it's Growth at 952
+Cell 461 Joins Replication Server Queue at 952
+Cell 463 has Started to Grow at 952
+Cell 463 Completes it's Growth at 952
+Cell 463 Joins Replication Server Queue at 952
+Cell 468 has Started to Grow at 952
+Cell 468 Completes it's Growth at 952
+Cell 468 Joins Replication Server Queue at 952
+Cell 471 has Started to Grow at 952
+Cell 471 Completes it's Growth at 952
+Cell 471 Joins Replication Server Queue at 952
+Cell 472 has Started to Grow at 952
+Cell 472 Completes it's Growth at 952
+Cell 472 Joins Replication Server Queue at 952
+Cell 473 has Started to Grow at 952
+Cell 473 Completes it's Growth at 952
+Cell 473 Joins Replication Server Queue at 952
+Cell 474 has Started to Grow at 952
+Cell 474 Completes it's Growth at 952
+Cell 474 Joins Replication Server Queue at 952
+Cell 476 has Started to Grow at 952
+Cell 476 Completes it's Growth at 952
+Cell 476 Joins Replication Server Queue at 952
+Cell 477 has Started to Grow at 952
+Cell 477 Completes it's Growth at 952
+Cell 477 Joins Replication Server Queue at 952
+Cell 478 has Started to Grow at 952
+Cell 478 Completes it's Growth at 952
+Cell 478 Joins Replication Server Queue at 952
+Cell 479 has Started to Grow at 952
+Cell 479 Completes it's Growth at 952
+Cell 479 Joins Replication Server Queue at 952
+Cell 480 has Started to Grow at 952
+Cell 480 Completes it's Growth at 952
+Cell 480 Joins Replication Server Queue at 952
+Cell 481 has Started to Grow at 952
+Cell 481 Completes it's Growth at 952
+Cell 481 Joins Replication Server Queue at 952
+Cell 482 has Started to Grow at 952
+Cell 482 Completes it's Growth at 952
+Cell 482 Joins Replication Server Queue at 952
+Cell 483 has Started to Grow at 952
+Cell 483 Completes it's Growth at 952
+Cell 483 Joins Replication Server Queue at 952
+Cell 487 has Started to Grow at 952
+Cell 487 Completes it's Growth at 952
+Cell 487 Joins Replication Server Queue at 952
+Cell 488 has Started to Grow at 952
+Cell 488 Completes it's Growth at 952
+Cell 488 Joins Replication Server Queue at 952
+Cell 489 has Started to Grow at 952
+Cell 489 Completes it's Growth at 952
+Cell 489 Joins Replication Server Queue at 952
+Cell 490 has Started to Grow at 952
+Cell 490 Completes it's Growth at 952
+Cell 490 Joins Replication Server Queue at 952
+Cell 492 has Started to Grow at 952
+Cell 492 Completes it's Growth at 952
+Cell 492 Joins Replication Server Queue at 952
+Cell 495 has Started to Grow at 952
+Cell 495 Completes it's Growth at 952
+Cell 495 Joins Replication Server Queue at 952
+Cell 498 has Started to Grow at 952
+Cell 498 Completes it's Growth at 952
+Cell 498 Joins Replication Server Queue at 952
+Cell 499 has Started to Grow at 952
+Cell 499 Completes it's Growth at 952
+Cell 499 Joins Replication Server Queue at 952
+Cell 500 has Started to Grow at 952
+Cell 500 Completes it's Growth at 952
+Cell 500 Joins Replication Server Queue at 952
+Cell 501 has Started to Grow at 952
+Cell 501 Completes it's Growth at 952
+Cell 501 Joins Replication Server Queue at 952
+Cell 503 has Started to Grow at 952
+Cell 503 Completes it's Growth at 952
+Cell 503 Joins Replication Server Queue at 952
+Cell 504 has Started to Grow at 952
+Cell 504 Completes it's Growth at 952
+Cell 504 Joins Replication Server Queue at 952
+Cell 506 has Started to Grow at 952
+Cell 506 Completes it's Growth at 952
+Cell 506 Joins Replication Server Queue at 952
+Cell 507 has Started to Grow at 952
+Cell 507 Completes it's Growth at 952
+Cell 507 Joins Replication Server Queue at 952
+Cell 509 has Started to Grow at 952
+Cell 509 Completes it's Growth at 952
+Cell 509 Joins Replication Server Queue at 952
+Cell 510 has Started to Grow at 952
+Cell 510 Completes it's Growth at 952
+Cell 510 Joins Replication Server Queue at 952
+Cell 511 has Started to Grow at 952
+Cell 511 Completes it's Growth at 952
+Cell 511 Joins Replication Server Queue at 952
+Cell 512 has Started to Grow at 952
+Cell 512 Completes it's Growth at 952
+Cell 512 Joins Replication Server Queue at 952
+Cell 513 has Started to Grow at 952
+Cell 513 Completes it's Growth at 952
+Cell 513 Joins Replication Server Queue at 952
+Cell 515 has Started to Grow at 952
+Cell 515 Completes it's Growth at 952
+Cell 515 Joins Replication Server Queue at 952
+Cell 516 has Started to Grow at 952
+Cell 516 Completes it's Growth at 952
+Cell 516 Joins Replication Server Queue at 952
+A Cell Completes it's Division at 1035 and Created Two New Cell 518 and 519
+Yeah!! Cell 518 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 519 is Alive and Joined Cell Growth Queue
+Total Cell Present : 2
+A Cell Completes it's Division at 1035 and Created Two New Cell 520 and 521
+Yeah!! Cell 520 is Alive and Joined Cell Growth Queue
+Alas!! Cell 521 Has Been Died.
+Total Cell Present : 3
+A Cell Completes it's Division at 1035 and Created Two New Cell 522 and 523
+Yeah!! Cell 522 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 523 is Alive and Joined Cell Growth Queue
+Total Cell Present : 5
+A Cell Completes it's Division at 1035 and Created Two New Cell 524 and 525
+Yeah!! Cell 524 is Alive and Joined Cell Growth Queue
+Alas!! Cell 525 Has Been Died.
+Total Cell Present : 6
+A Cell Completes it's Division at 1035 and Created Two New Cell 526 and 527
+Yeah!! Cell 526 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 527 is Alive and Joined Cell Growth Queue
+Total Cell Present : 8
+A Cell Completes it's Division at 1035 and Created Two New Cell 528 and 529
+Yeah!! Cell 528 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 529 is Alive and Joined Cell Growth Queue
+Total Cell Present : 10
+A Cell Completes it's Division at 1035 and Created Two New Cell 530 and 531
+Yeah!! Cell 530 is Alive and Joined Cell Growth Queue
+Alas!! Cell 531 Has Been Died.
+Total Cell Present : 11
+A Cell Completes it's Division at 1035 and Created Two New Cell 532 and 533
+Alas!! Cell 532 Has Been Died.
+Yeah!! Cell 533 is Alive and Joined Cell Growth Queue
+Total Cell Present : 12
+A Cell Completes it's Division at 1035 and Created Two New Cell 534 and 535
+Yeah!! Cell 534 is Alive and Joined Cell Growth Queue
+Alas!! Cell 535 Has Been Died.
+Total Cell Present : 13
+A Cell Completes it's Division at 1035 and Created Two New Cell 536 and 537
+Alas!! Cell 536 Has Been Died.
+Yeah!! Cell 537 is Alive and Joined Cell Growth Queue
+Total Cell Present : 14
+A Cell Completes it's Division at 1035 and Created Two New Cell 538 and 539
+Yeah!! Cell 538 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 539 is Alive and Joined Cell Growth Queue
+Total Cell Present : 16
+A Cell Completes it's Division at 1035 and Created Two New Cell 540 and 541
+Alas!! Cell 540 Has Been Died.
+Yeah!! Cell 541 is Alive and Joined Cell Growth Queue
+Total Cell Present : 17
+A Cell Completes it's Division at 1035 and Created Two New Cell 542 and 543
+Alas!! Cell 542 Has Been Died.
+Alas!! Cell 543 Has Been Died.
+Total Cell Present : 17
+A Cell Completes it's Division at 1035 and Created Two New Cell 544 and 545
+Yeah!! Cell 544 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 545 is Alive and Joined Cell Growth Queue
+Total Cell Present : 19
+A Cell Completes it's Division at 1035 and Created Two New Cell 546 and 547
+Yeah!! Cell 546 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 547 is Alive and Joined Cell Growth Queue
+Total Cell Present : 21
+A Cell Completes it's Division at 1035 and Created Two New Cell 548 and 549
+Alas!! Cell 548 Has Been Died.
+Yeah!! Cell 549 is Alive and Joined Cell Growth Queue
+Total Cell Present : 22
+A Cell Completes it's Division at 1035 and Created Two New Cell 550 and 551
+Yeah!! Cell 550 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 551 is Alive and Joined Cell Growth Queue
+Total Cell Present : 24
+A Cell Completes it's Division at 1035 and Created Two New Cell 552 and 553
+Yeah!! Cell 552 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 553 is Alive and Joined Cell Growth Queue
+Total Cell Present : 26
+A Cell Completes it's Division at 1035 and Created Two New Cell 554 and 555
+Yeah!! Cell 554 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 555 is Alive and Joined Cell Growth Queue
+Total Cell Present : 28
+A Cell Completes it's Division at 1035 and Created Two New Cell 556 and 557
+Yeah!! Cell 556 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 557 is Alive and Joined Cell Growth Queue
+Total Cell Present : 30
+A Cell Completes it's Division at 1035 and Created Two New Cell 558 and 559
+Alas!! Cell 558 Has Been Died.
+Yeah!! Cell 559 is Alive and Joined Cell Growth Queue
+Total Cell Present : 31
+A Cell Completes it's Division at 1035 and Created Two New Cell 560 and 561
+Alas!! Cell 560 Has Been Died.
+Yeah!! Cell 561 is Alive and Joined Cell Growth Queue
+Total Cell Present : 32
+A Cell Completes it's Division at 1035 and Created Two New Cell 562 and 563
+Yeah!! Cell 562 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 563 is Alive and Joined Cell Growth Queue
+Total Cell Present : 34
+A Cell Completes it's Division at 1035 and Created Two New Cell 564 and 565
+Alas!! Cell 564 Has Been Died.
+Yeah!! Cell 565 is Alive and Joined Cell Growth Queue
+Total Cell Present : 35
+A Cell Completes it's Division at 1035 and Created Two New Cell 566 and 567
+Yeah!! Cell 566 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 567 is Alive and Joined Cell Growth Queue
+Total Cell Present : 37
+A Cell Completes it's Division at 1035 and Created Two New Cell 568 and 569
+Yeah!! Cell 568 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 569 is Alive and Joined Cell Growth Queue
+Total Cell Present : 39
+A Cell Completes it's Division at 1035 and Created Two New Cell 570 and 571
+Yeah!! Cell 570 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 571 is Alive and Joined Cell Growth Queue
+Total Cell Present : 41
+A Cell Completes it's Division at 1035 and Created Two New Cell 572 and 573
+Alas!! Cell 572 Has Been Died.
+Yeah!! Cell 573 is Alive and Joined Cell Growth Queue
+Total Cell Present : 42
+A Cell Completes it's Division at 1035 and Created Two New Cell 574 and 575
+Yeah!! Cell 574 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 575 is Alive and Joined Cell Growth Queue
+Total Cell Present : 44
+A Cell Completes it's Division at 1035 and Created Two New Cell 576 and 577
+Yeah!! Cell 576 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 577 is Alive and Joined Cell Growth Queue
+Total Cell Present : 46
+A Cell Completes it's Division at 1035 and Created Two New Cell 578 and 579
+Alas!! Cell 578 Has Been Died.
+Yeah!! Cell 579 is Alive and Joined Cell Growth Queue
+Total Cell Present : 47
+A Cell Completes it's Division at 1035 and Created Two New Cell 580 and 581
+Yeah!! Cell 580 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 581 is Alive and Joined Cell Growth Queue
+Total Cell Present : 49
+A Cell Completes it's Division at 1035 and Created Two New Cell 582 and 583
+Yeah!! Cell 582 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 583 is Alive and Joined Cell Growth Queue
+Total Cell Present : 51
+A Cell Completes it's Division at 1035 and Created Two New Cell 584 and 585
+Alas!! Cell 584 Has Been Died.
+Alas!! Cell 585 Has Been Died.
+Total Cell Present : 51
+A Cell Completes it's Division at 1035 and Created Two New Cell 586 and 587
+Yeah!! Cell 586 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 587 is Alive and Joined Cell Growth Queue
+Total Cell Present : 53
+A Cell Completes it's Division at 1035 and Created Two New Cell 588 and 589
+Alas!! Cell 588 Has Been Died.
+Yeah!! Cell 589 is Alive and Joined Cell Growth Queue
+Total Cell Present : 54
+A Cell Completes it's Division at 1035 and Created Two New Cell 590 and 591
+Yeah!! Cell 590 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 591 is Alive and Joined Cell Growth Queue
+Total Cell Present : 56
+A Cell Completes it's Division at 1035 and Created Two New Cell 592 and 593
+Alas!! Cell 592 Has Been Died.
+Alas!! Cell 593 Has Been Died.
+Total Cell Present : 56
+A Cell Completes it's Division at 1035 and Created Two New Cell 594 and 595
+Yeah!! Cell 594 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 595 is Alive and Joined Cell Growth Queue
+Total Cell Present : 58
+A Cell Completes it's Division at 1035 and Created Two New Cell 596 and 597
+Yeah!! Cell 596 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 597 is Alive and Joined Cell Growth Queue
+Total Cell Present : 60
+A Cell Completes it's Division at 1035 and Created Two New Cell 598 and 599
+Alas!! Cell 598 Has Been Died.
+Yeah!! Cell 599 is Alive and Joined Cell Growth Queue
+Total Cell Present : 61
+A Cell Completes it's Division at 1035 and Created Two New Cell 600 and 601
+Alas!! Cell 600 Has Been Died.
+Alas!! Cell 601 Has Been Died.
+Total Cell Present : 61
+A Cell Completes it's Division at 1035 and Created Two New Cell 602 and 603
+Yeah!! Cell 602 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 603 is Alive and Joined Cell Growth Queue
+Total Cell Present : 63
+A Cell Completes it's Division at 1035 and Created Two New Cell 604 and 605
+Yeah!! Cell 604 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 605 is Alive and Joined Cell Growth Queue
+Total Cell Present : 65
+A Cell Completes it's Division at 1035 and Created Two New Cell 606 and 607
+Alas!! Cell 606 Has Been Died.
+Yeah!! Cell 607 is Alive and Joined Cell Growth Queue
+Total Cell Present : 66
+A Cell Completes it's Division at 1035 and Created Two New Cell 608 and 609
+Alas!! Cell 608 Has Been Died.
+Alas!! Cell 609 Has Been Died.
+Total Cell Present : 66
+A Cell Completes it's Division at 1035 and Created Two New Cell 610 and 611
+Yeah!! Cell 610 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 611 is Alive and Joined Cell Growth Queue
+Total Cell Present : 68
+A Cell Completes it's Division at 1035 and Created Two New Cell 612 and 613
+Yeah!! Cell 612 is Alive and Joined Cell Growth Queue
+Alas!! Cell 613 Has Been Died.
+Total Cell Present : 69
+A Cell Completes it's Division at 1035 and Created Two New Cell 614 and 615
+Yeah!! Cell 614 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 615 is Alive and Joined Cell Growth Queue
+Total Cell Present : 71
+A Cell Completes it's Division at 1035 and Created Two New Cell 616 and 617
+Yeah!! Cell 616 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 617 is Alive and Joined Cell Growth Queue
+Total Cell Present : 73
+A Cell Completes it's Division at 1035 and Created Two New Cell 618 and 619
+Alas!! Cell 618 Has Been Died.
+Yeah!! Cell 619 is Alive and Joined Cell Growth Queue
+Total Cell Present : 74
+A Cell Completes it's Division at 1035 and Created Two New Cell 620 and 621
+Alas!! Cell 620 Has Been Died.
+Alas!! Cell 621 Has Been Died.
+Total Cell Present : 74
+A Cell Completes it's Division at 1035 and Created Two New Cell 622 and 623
+Yeah!! Cell 622 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 623 is Alive and Joined Cell Growth Queue
+Total Cell Present : 76
+A Cell Completes it's Division at 1035 and Created Two New Cell 624 and 625
+Alas!! Cell 624 Has Been Died.
+Yeah!! Cell 625 is Alive and Joined Cell Growth Queue
+Total Cell Present : 77
+A Cell Completes it's Division at 1035 and Created Two New Cell 626 and 627
+Yeah!! Cell 626 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 627 is Alive and Joined Cell Growth Queue
+Total Cell Present : 79
+A Cell Completes it's Division at 1035 and Created Two New Cell 628 and 629
+Alas!! Cell 628 Has Been Died.
+Yeah!! Cell 629 is Alive and Joined Cell Growth Queue
+Total Cell Present : 80
+A Cell Completes it's Division at 1035 and Created Two New Cell 630 and 631
+Yeah!! Cell 630 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 631 is Alive and Joined Cell Growth Queue
+Total Cell Present : 82
+A Cell Completes it's Division at 1035 and Created Two New Cell 632 and 633
+Alas!! Cell 632 Has Been Died.
+Yeah!! Cell 633 is Alive and Joined Cell Growth Queue
+Total Cell Present : 83
+A Cell Completes it's Division at 1035 and Created Two New Cell 634 and 635
+Alas!! Cell 634 Has Been Died.
+Alas!! Cell 635 Has Been Died.
+Total Cell Present : 83
+A Cell Completes it's Division at 1035 and Created Two New Cell 636 and 637
+Alas!! Cell 636 Has Been Died.
+Yeah!! Cell 637 is Alive and Joined Cell Growth Queue
+Total Cell Present : 84
+A Cell Completes it's Division at 1035 and Created Two New Cell 638 and 639
+Alas!! Cell 638 Has Been Died.
+Alas!! Cell 639 Has Been Died.
+Total Cell Present : 84
+A Cell Completes it's Division at 1035 and Created Two New Cell 640 and 641
+Alas!! Cell 640 Has Been Died.
+Yeah!! Cell 641 is Alive and Joined Cell Growth Queue
+Total Cell Present : 85
+A Cell Completes it's Division at 1035 and Created Two New Cell 642 and 643
+Yeah!! Cell 642 is Alive and Joined Cell Growth Queue
+Alas!! Cell 643 Has Been Died.
+Total Cell Present : 86
+A Cell Completes it's Division at 1035 and Created Two New Cell 644 and 645
+Yeah!! Cell 644 is Alive and Joined Cell Growth Queue
+Alas!! Cell 645 Has Been Died.
+Total Cell Present : 87
+A Cell Completes it's Division at 1035 and Created Two New Cell 646 and 647
+Yeah!! Cell 646 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 647 is Alive and Joined Cell Growth Queue
+Total Cell Present : 89
+A Cell Completes it's Division at 1035 and Created Two New Cell 648 and 649
+Yeah!! Cell 648 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 649 is Alive and Joined Cell Growth Queue
+Total Cell Present : 91
+A Cell Completes it's Division at 1035 and Created Two New Cell 650 and 651
+Yeah!! Cell 650 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 651 is Alive and Joined Cell Growth Queue
+Total Cell Present : 93
+A Cell Completes it's Division at 1035 and Created Two New Cell 652 and 653
+Yeah!! Cell 652 is Alive and Joined Cell Growth Queue
+Alas!! Cell 653 Has Been Died.
+Total Cell Present : 94
+A Cell Completes it's Division at 1035 and Created Two New Cell 654 and 655
+Yeah!! Cell 654 is Alive and Joined Cell Growth Queue
+Alas!! Cell 655 Has Been Died.
+Total Cell Present : 95
+A Cell Completes it's Division at 1035 and Created Two New Cell 656 and 657
+Yeah!! Cell 656 is Alive and Joined Cell Growth Queue
+Alas!! Cell 657 Has Been Died.
+Total Cell Present : 96
+A Cell Completes it's Division at 1035 and Created Two New Cell 658 and 659
+Yeah!! Cell 658 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 659 is Alive and Joined Cell Growth Queue
+Total Cell Present : 98
+A Cell Completes it's Division at 1035 and Created Two New Cell 660 and 661
+Yeah!! Cell 660 is Alive and Joined Cell Growth Queue
+Yeah!! Cell 661 is Alive and Joined Cell Growth Queue
+Total Cell Present : 100
+A Cell Completes it's Division at 1035 and Created Two New Cell 662 and 663
+Alas!! Cell 663 Has Been Died.
+Total Cell Present : 100
+A Cell Completes it's Division at 1035 and Created Two New Cell 664 and 665
+Alas!! Cell 664 Has Been Died.
+Alas!! Cell 665 Has Been Died.
+Total Cell Present : 100
+A Cell Completes it's Division at 1035 and Created Two New Cell 666 and 667
+Alas!! Cell 666 Has Been Died.
+Total Cell Present : 100

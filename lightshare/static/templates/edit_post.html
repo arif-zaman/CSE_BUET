@@ -1,0 +1,64 @@
+{% extends "group.html" %}
+
+    {% block group_search %}
+
+            <!-- Blog Search Well -->
+            <div class="well">
+                <h4>Group Search</h4>
+                 <form action="/lightshare/{{ gname.id }}/search_result/page/1/$/" method="POST" class="navbar-form navbar-center form-inline" id="search" role="search"> {% csrf_token %}
+
+                    <div class="form-group-group">
+                        <div class="input-group">
+                            <input type="text" name="search" id="search" class="form-control">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div><!-- /.input-group -->
+                    </div>
+                </form><!-- /.input-group -->
+            </div>
+
+    {% endblock group_search %}
+
+    {% block fav %}
+                             
+            <div class="panel panel-default">
+            <div class="panel-heading">Favourite</div>
+            
+                {% for key, value in favs_list.items %}
+
+                   <div class="panel-body"><a href="/lightshare/{{ key }}/home">{{ value }}</a></div>
+                    
+                {% endfor %}
+
+            </div>
+          
+    {% endblock fav %}
+
+    {% block gcontent %}
+
+                <div class="col-sm-12" align="center">
+
+                    <!-- New Post Creation Form
+                    ================================================== -->
+                    
+                    <form method="POST" action="/lightshare/{{ gname.id }}/{{ article.id }}/edit_post/" class="form-signin" role="form" style="width:80%"> {% csrf_token %}
+                        <div>
+
+                            <h2 class="form-signin-heading"><em>Edit Post</em></h2>
+                            </br>
+                            <input class="form-control" id="id_title" maxlength="300" name="title" type="text" value="{{ article.title }}" required autofocus />
+                            <br />
+                            <input class="form-control" id="id_body" name="body" type="text" value="{{ article.body|safe }}" required  />
+                            
+                            </br>
+                            <button class="btn btn-success btn-lg btn-block" type="submit"><strong>Save</strong></button>
+
+                        </div>
+                    </form>
+    
+                </div>
+                
+{% endblock gcontent %}

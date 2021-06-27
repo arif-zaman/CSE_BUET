@@ -1,0 +1,38 @@
+{% extends "base_logout.html" %}
+
+{% block title %}signup{% endblock title %}
+
+{% block content %}
+
+<br><br><br>
+
+    <!-- Registration Form
+    ================================================== -->
+
+    <div class="container" >
+
+      <center>
+
+        <form method="POST" action="/lightshare/signup/$/" class="form-signin" role="form" style="width:30%"> {% csrf_token %}
+
+          {% if alert1 %}
+              <div class="alert alert-danger" role="alert">E-mail Must be Unique.</div>
+          {% endif %}
+          {% if alert2 %}
+              <div class="alert alert-danger" role="alert">Username Must be Unique.</div>
+          {% endif %}
+          <h2 class="form-signin-heading">Please Sign Up</h2>
+          </br>
+          <input class="form-control" placeholder="Username" id="id_username" maxlength="30" name="username" type="text" required autofocus/>
+          <input class="form-control" placeholder="Email Address" id="id_email" name="email" type="email" required />
+          <input class="form-control" placeholder="Password" id="id_password1" name="password1" type="password" required />
+          <input class="form-control" placeholder="Confirm Password" id="id_password2" name="password2" type="password" required /> 
+          </br>
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Sign Up</button>
+        </form>
+
+      </center>
+    
+    </div> <!-- /container -->
+
+{% endblock content %}

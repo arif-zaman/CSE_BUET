@@ -1,0 +1,42 @@
+{% extends "base_login.html" %}
+
+{% block title %}report{% endblock title %}
+{% block pro %} "/lightshare/user/profile/{{ ur.id }}" {% endblock pro %}
+{% block name %} {{ session_name }} {% endblock name %}
+
+{% block content %}
+
+<br /><br /><br /><br /><br />
+
+<center>
+
+<div class="well" style="width:80%">
+
+    <form action="/lightshare/feedback/" class="form-horizontal" method="post"> {% csrf_token %}
+    <fieldset>
+        <legend class="text-center header"><em><b>Give us Feedback - We value your Opinion</b></em></legend>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <input id="username" name="username" type="hidden" value="{{ session_name }}" >
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10 col-md-offset-1">
+                <textarea class="form-control" id="feedback" name="feedback" placeholder="Enter your massage for us here." rows="10"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-info btn-lg active"><b>Submit</b></button>
+            </div>
+        </div>
+    </fieldset>
+    </form>
+</div>
+
+</center>
+
+{% endblock content %}
